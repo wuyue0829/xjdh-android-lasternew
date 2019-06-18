@@ -1,0 +1,4 @@
+#Tue Jun 18 16:41:54 CST 2019
+base.0=E\:\\2019Files\\xjdh-android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
+renamed.0=classes.dex
+file.0=E\:\\2019Files\\xjdh-android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex

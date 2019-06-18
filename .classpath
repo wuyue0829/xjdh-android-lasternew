@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/androidannotations-api-3.3.1.jar" sourcepath="E:/DOWNLOAD/androidannotations-bundle-3.3.2/sources/androidannotations-api-3.3.2-sources.jar"/>
+	<classpathentry kind="lib" path="libs/Auth_androidSdk_2.0.jar"/>
+	<classpathentry kind="lib" path="libs/eventbus-3.0.0.jar"/>
+	<classpathentry kind="lib" path="libs/fastjson-1.1.40.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-core-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="libs/jackson-mapper-asl-1.9.13.jar"/>
+	<classpathentry kind="lib" path="libs/mpchartlib.jar"/>
+	<classpathentry kind="lib" path="libs/ormlite-android-4.43.jar"/>
+	<classpathentry kind="lib" path="libs/ormlite-core-4.43.jar"/>
+	<classpathentry kind="lib" path="libs/spring-android-auth-1.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-android-core-1.0.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-android-rest-template-1.0.1.RELEASE.jar" sourcepath="E:/DOWNLOAD/spring-android-rest-template-1.0.1.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="libs/systembartint-1.0.3.jar"/>
+	<classpathentry kind="lib" path="libs/universal-image-loader-1.9.5.jar"/>
+	<classpathentry kind="lib" path="libs/Volley.jar"/>
+	<classpathentry kind="lib" path="libs/zxing.jar"/>
+	<classpathentry kind="lib" path="compile-libs/androidannotations-3.3.1.jar" sourcepath="C:/Users/Administrator/Desktop/androidannotations-bundle-3.0.1/sources/androidannotations-3.0.1-sources.jar"/>
+	<classpathentry kind="lib" path="libs/xutils-3.5.0.jar"/>
+	<classpathentry kind="lib" path="libs/android-support-v7-recyclerview-21.jar"/>
+	<classpathentry kind="lib" path="libs/baidumapapi_base_v3_7_0.jar"/>
+	<classpathentry kind="lib" path="libs/baidumapapi_cloud_v3_7_0.jar"/>
+	<classpathentry kind="lib" path="libs/baidumapapi_map_v3_7_0.jar"/>
+	<classpathentry kind="lib" path="libs/locSDK_6.13.jar"/>
+	<classpathentry kind="lib" path="libs/baidumapapi_util_v3_7_0.jar"/>
+	<classpathentry kind="lib" path="libs/baidumapapi_search_v3_7_0.jar"/>
+	<classpathentry kind="lib" path="libs/baidumapapi_radar_v3_7_0.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/appcompat_v7"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/InitActivity"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SlidingMenu"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/viepagerindicator_library"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

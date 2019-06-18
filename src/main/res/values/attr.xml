@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DropEditText">
+        <attr name="drawableRight" format="reference" />
+        <attr name="dropMode">
+            <enum name="flower_parent" value="0" />
+            <enum name="wrap_content" value="1" />
+        </attr>
+        <attr name="hint" format="string|reference" />
+    </declare-styleable>
+    
+    <attr name="item_count" format="integer"></attr>
+
+    <declare-styleable name="MyViewPagerIndicators">
+        <attr name="item_count" />
+    </declare-styleable>
+     <attr name="visible_tab_count" format="integer"/>
+    <declare-styleable name="MyViewPagerIndicator">
+        <attr name="visible_tab_count"/>
+
+
+    </declare-styleable>
+</resources>

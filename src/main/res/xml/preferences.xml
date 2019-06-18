@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="消息通知 " >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/new_message_sound"
+            android:layout="?android:attr/preferenceLayoutChild"
+            android:title="声音" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/new_message_vibrate"
+            android:layout="?android:attr/preferenceLayoutChild"
+            android:title="振动" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/new_message_background"
+            android:summaryOff="已关闭"
+            android:summaryOn="已开启"
+            android:title="后台告警消息推送" >
+        </SwitchPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="其他 " >
+        <Preference
+            android:key="@string/app_about"
+            android:title="关于" >
+        </Preference>
+        <Preference
+            android:key="@string/logout"
+            android:title="注销账户" >
+        </Preference>
+        <Preference
+            android:key="@string/app_exit"
+            android:title="退出" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

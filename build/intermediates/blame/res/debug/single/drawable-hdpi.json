@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bgg.9.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable-hdpi\\bgg.9.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\edittext1.9.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable-hdpi\\edittext1.9.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tiao.9.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable-hdpi\\tiao.9.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\csx_sdk_zc_setting_bright_seekbar_background.9.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable-hdpi\\csx_sdk_zc_setting_bright_seekbar_background.9.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\kkk.9.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable-hdpi\\kkk.9.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\csx_sdk_zc_setting_bright_seekbar_progress.9.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable-hdpi\\csx_sdk_zc_setting_bright_seekbar_progress.9.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\edits.9.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable-hdpi\\edits.9.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\dialog_bg.9.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable-hdpi\\dialog_bg.9.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\plugin_camera_title_bar.9.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable-hdpi\\plugin_camera_title_bar.9.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\actionbar_bg.9.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable-hdpi\\actionbar_bg.9.png"
+    }
+]

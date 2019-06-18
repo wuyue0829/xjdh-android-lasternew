@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/menu_fill_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <GridView
+        android:id="@+id/menu_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_background"
+        android:horizontalSpacing="@dimen/space_5"
+        android:listSelector="@drawable/item_menu_selector"
+        android:numColumns="4"
+        android:verticalSpacing="@dimen/space_5" />
+
+</LinearLayout>

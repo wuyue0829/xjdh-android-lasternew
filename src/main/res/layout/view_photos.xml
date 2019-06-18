@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    >
+
+   
+     
+     <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true">
+ 		  <Button
+            android:textSize="14sp"
+            android:textColor="#fff"
+            android:id="@+id/btnDelete"
+            android:text="删除照片"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_20"
+            android:layout_marginRight="@dimen/space_20"
+            android:background="@drawable/btn_login"
+            />
+ 		  
+        <Button
+            android:id="@+id/btnDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结束编辑"
+             android:textColor="#fff"
+             android:layout_weight="1"
+            android:layout_marginLeft="@dimen/space_20"
+            android:layout_marginRight="@dimen/space_20"
+            android:background="@drawable/btn_login"
+            />
+
+    </LinearLayout>
+    
+        <com.chinatelecom.xjdh.zoom.ViewPagerFixed
+      android:id="@+id/vpGallery" 
+      android:layout_width="fill_parent" 
+      android:layout_height="fill_parent"
+      android:layout_above="@id/bottom_layout"
+      android:unselectedAlpha="1">
+   	</com.chinatelecom.xjdh.zoom.ViewPagerFixed>
+   	
+</RelativeLayout>
+  

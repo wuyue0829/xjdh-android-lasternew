@@ -1,0 +1,810 @@
+[
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\loading_dialog.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\loading_dialog.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\code_image.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\code_image.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_station_grouping.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_station_grouping.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_title.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_title.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\station_stay_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\station_stay_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\popopwindows_local_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\popopwindows_local_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\item_publish.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\item_publish.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\act_publish.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\act_publish.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_content_normal.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\dialog_content_normal.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\demo.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\demo.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\memo_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\memo_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\realistic_fragment.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\realistic_fragment.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\item_bucket_list.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\item_bucket_list.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\listview_footer.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\listview_footer.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_detail.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_user_detail.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\pwd_main.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\pwd_main.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\about_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\about_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\fault_detail_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\fault_detail_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ios_center_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\layout\\dialog_ios_center_item.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\answer_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\answer_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\user_back.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\user_back.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\message_list_item.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\message_list_item.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_call_vedio.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_call_vedio.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\rountinfo.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\rountinfo.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\act_newdata.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\act_newdata.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_native_default.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\dialog_native_default.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\layout_url.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\layout_url.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_value.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\spinner_value.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_grouping.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_new_grouping.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_station_grouping_pattern.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_station_grouping_pattern.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\manage_main.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\manage_main.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\pop_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\pop_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\worker_reply.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\worker_reply.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\normal_seach_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\normal_seach_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_station_list.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_station_list.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_navigation.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_navigation.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_device.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_select_device.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_collet.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_collet.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\lv_item_item.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\lv_item_item.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_append_station.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_append_station.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\station_list_grouping_pattern.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\station_list_grouping_pattern.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_native.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\dialog_native.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_readnfc.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_readnfc.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_acceptance_station.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_acceptance_station.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\seach_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\seach_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\alarm_list_item.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\alarm_list_item.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\item_published_grida.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\item_published_grida.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\port_status_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\port_status_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\camera.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\camera.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_smddevice_monitor.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_smddevice_monitor.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bluetooth.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_bluetooth.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\photo_menu_dialog.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\photo_menu_dialog.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\pre_alarm_list_item.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\pre_alarm_list_item.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\systemmenu_item.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\systemmenu_item.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_station_collect.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_station_collect.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar_title.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\actionbar_title.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ios_alert.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\layout\\dialog_ios_alert.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\energy_mian.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\energy_mian.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\item_image.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\item_image.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\new_fault_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\new_fault_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\pro_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\pro_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ios_alert_vertical.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\layout\\dialog_ios_alert_vertical.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_room.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_choose_room.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\main_grid_item.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\main_grid_item.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_station_list_pattern.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_station_list_pattern.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_player.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_player.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\station_adapter_pattern.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\station_adapter_pattern.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\port_wenshi_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\port_wenshi_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\wifi_modify_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\wifi_modify_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_call.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_call.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\signature.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\signature.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\smdevice_info.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\smdevice_info.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_conversation.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_choose_conversation.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\main_footer.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\main_footer.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\station_item.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\station_item.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\item_choose.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\item_choose.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_realtime.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_realtime.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\edit_device_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\edit_device_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\user_detail_item.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\user_detail_item.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alarm_detail.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_alarm_detail.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\item_popupwindows.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\item_popupwindows.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\start.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\start.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\view_photos.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\view_photos.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\item_bottomsheet_gv.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\layout\\item_bottomsheet_gv.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pre_alarm.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_pre_alarm.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\progressview_wrapconent.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\layout\\progressview_wrapconent.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\item_choose_check.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\item_choose_check.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_call_income.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_call_income.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\webview.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\webview.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\new_data_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\new_data_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_download_station.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_download_station.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\data_list_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\data_list_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_door.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_door.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\test_device_list.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\test_device_list.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_energy_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_energy_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video_vlc.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_video_vlc.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alarm.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_alarm.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_smddevice_monitors.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_smddevice_monitors.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_grouping_name.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_grouping_name.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_map.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\dialog_map.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_network_test.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_network_test.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\wife_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\wife_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_location.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_location.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\rtsp_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\rtsp_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_message_center.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_message_center.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\area_list_item.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\area_list_item.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_routeplan.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_routeplan.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\camera_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\bc34385f2cfa9d5903a3eb55cdbb3cb733db3094\\output\\res\\layout\\camera_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\item_btn_bottomalert.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\layout\\item_btn_bottomalert.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\rstp_video.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\rstp_video.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\item_image_list.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\item_image_list.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_spdev_test.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_spdev_test.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\door_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\door_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\slidingmenumain.xml",
+        "source": "E:\\2019Files\\xjdh-android\\slidingmenu_library\\build\\intermediates\\bundles\\default\\res\\layout\\slidingmenumain.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\edit_layout.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\edit_layout.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\normal_list_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\normal_list_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\question_item.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\question_item.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\person_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\person_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\autograph_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\autograph_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_spinner_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_spinner_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_upload.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_upload.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\examine_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\examine_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\view_player.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\view_player.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_pd.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_main_pd.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\item_popupwindow.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\item_popupwindow.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\systemmenu.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\systemmenu.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\modify_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\modify_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_feedback.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_feedback.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\loading.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\layout\\loading.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ios_alert_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\layout\\dialog_ios_alert_bottom.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_board_setting.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_board_setting.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_selectimg.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_selectimg.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\grid_image_item.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\grid_image_item.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_roommany.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_choose_roommany.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\pingresult.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\pingresult.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\bts_alarm_menu.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\bts_alarm_menu.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_broadcast.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_broadcast.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\lv_item_img.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\lv_item_img.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pre_alarm_detail.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_pre_alarm_detail.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\edit_view.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\edit_view.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\normal_list_views.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\normal_list_views.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_barchart.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_barchart.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_area.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_choose_area.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\listitem.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\listitem.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\update_progress.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\update_progress.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\bottomsheet_lv.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\layout\\bottomsheet_lv.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\act_zoom.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\act_zoom.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\header_titlebar.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\header_titlebar.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\search_rtsp.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\search_rtsp.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_rtsp_video_play.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_rtsp_video_play.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\mode_voiw.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\mode_voiw.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_energy.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_energy.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\item_bottomsheet_lv.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\layout\\item_bottomsheet_lv.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\act_image_choose.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\act_image_choose.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_capture.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\fragment_capture.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\new_grouping_adapter_pattern.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\new_grouping_adapter_pattern.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_station.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\activity_choose_station.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_item.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_modify_user_info.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\layout\\dialog_modify_user_info.xml"
+    }
+]

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+  
+    <TextView
+        android:id="@+id/tv_new_message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/space_20"
+        android:textColor="@color/primary_color"
+        android:textSize="@dimen/text_size_18"
+        android:focusable="false"
+        android:text="下拉加载数据"
+        android:visibility="gone" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/srl_alarm"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/lv_items"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        
+    </android.support.v4.widget.SwipeRefreshLayout>
+      <LinearLayout
+        android:id="@+id/layoutContainer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:padding="8dp" >
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/tiao"
+            android:drawableLeft="@drawable/search"
+            android:ems="10"
+            android:layout_gravity="center_vertical"
+            android:hint="搜索"
+            android:layout_weight="3"
+            android:paddingLeft="4dp"
+            android:paddingRight="40dp"
+            android:singleLine="true"
+            android:textSize="14sp" >
+
+        </EditText>
+        <Button
+            android:id="@+id/btn_seach"
+            android:layout_width="60dp"
+            android:layout_height="38dp"
+            android:layout_weight="1"
+            android:text="查询"
+            android:padding="5dp"
+            android:background="@drawable/btn_login"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/button_on"
+            android:layout_marginLeft="4dp"
+            android:textSize="16sp"
+             />
+    </LinearLayout>
+    
+
+</LinearLayout>

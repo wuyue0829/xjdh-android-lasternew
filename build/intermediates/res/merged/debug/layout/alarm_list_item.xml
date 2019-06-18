@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/space_5"
+    android:orientation="vertical"
+    android:padding="@dimen/space_10" >
+
+    <TextView
+        android:id="@+id/tv_list_item_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_5"
+        android:drawableRight="@drawable/icon_level1"
+        android:singleLine="true"
+        android:text="subtitle"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_18" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_margin="@dimen/space_5"
+        android:background="@color/cut_off_line" />
+
+    <TextView
+        android:id="@+id/tv_list_item_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="5"
+        android:padding="@dimen/space_10"
+        android:text="title"
+        android:textSize="@dimen/text_size_18" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_margin="@dimen/space_5"
+        android:background="@color/cut_off_line" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="状态："
+            android:textColor="@color/list_item_sub_title" />
+
+        <TextView
+            android:id="@+id/tv_list_item_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_5"
+            android:layout_marginRight="@dimen/space_5"
+            android:text=""
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_list_item_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="2014-09-18"
+            android:textColor="@color/list_item_sub_title" />
+    </LinearLayout>
+
+</LinearLayout>

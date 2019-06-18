@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/baidu"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="百度地图"
+        android:background="#EDEDED"
+        android:textColor="#0000ff"
+        android:textSize="20sp"
+         />
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DEDEDE"/>
+
+    <Button
+        android:id="@+id/gaode"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="高德地图"
+        android:background="#EDEDED"
+        android:textColor="#0000ff"
+        android:textSize="20sp"
+         />
+    <View android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DEDEDE"/>
+    
+    
+     <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:background="#EDEDED"
+        android:text="取消"
+        android:textColor="#0000ff"
+        android:textSize="20sp"
+         />
+
+</LinearLayout>

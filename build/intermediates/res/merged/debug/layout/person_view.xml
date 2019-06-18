@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="10dp"
+    	android:layout_marginLeft="10dp"
+    	android:layout_marginRight="10dp"
+    	android:textSize="16sp"
+    	android:text="        施工人员拍照说明：督导在验收局之前将自己的照片上传，以保证在自身状态良好的情况下工作。"
+    />
+     <TextView 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:textSize="14sp"
+    	android:layout_marginLeft="10dp"
+    	android:layout_marginRight="10dp"
+    	android:layout_marginBottom="10dp"
+    	android:textColor="@color/black"
+    	android:text="(注：请不要在醉酒或者身体不佳的状态下工作。以免出现意外！！！)"
+    />
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal" >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:text="施工人员拍照"
+             android:layout_weight="1"
+             android:textColor="@color/black"
+             android:textSize="18sp" />
+
+         <Button
+             android:id="@+id/submit"
+             android:layout_width="wrap_content"
+              android:layout_weight="1"
+             android:layout_height="wrap_content"
+             android:background="@drawable/btn_login"
+             android:text="上传照片"
+             android:layout_marginRight="10dp"
+             android:textColor="@color/white"
+             android:textSize="18sp" />
+     </LinearLayout>
+     
+       <GridView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="5dp"
+        android:numColumns="4"
+        android:layout_margin="10dp"
+        android:verticalSpacing="5dp"  >
+    </GridView>
+ 
+    
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:text="请选择要调测的设备型号，然后从待选设备列表中选择名称为SMD302A的设备进行连接，默认连接密码为1234,连接过程一般小于5秒，超出5秒可认为连接超时，需要重试。" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:text="如设备没有出现在列表中，请使用手机自带蓝牙功能先进行设备配对，默认连接密码为1234,再返回本界面连接设备。" />
+    
+    	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:text="设备型号"
+	        android:textSize="24sp" />
+
+		<RadioGroup
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+
+	    <RadioButton
+	        android:id="@+id/rd302A"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:selectAllOnFocus="true"
+	        android:text="SMD302A" />
+
+	    <RadioButton
+	        android:id="@+id/rd301E"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:selectAllOnFocus="true"
+	        android:text="SMD301E" />
+
+		</RadioGroup>
+	    </LinearLayout>
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+   <Button
+       android:id="@+id/btn_scanning"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="5dp"
+       android:text="扫描设备"
+       android:padding="5dp"
+       android:textSize="20dp" 
+        android:background="@drawable/btn_login"
+        android:textColor="@color/white"
+        />
+   </LinearLayout>
+    <ListView
+        android:id="@+id/lvDevice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+    
+    
+
+</LinearLayout>

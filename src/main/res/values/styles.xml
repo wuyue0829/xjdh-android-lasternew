@@ -1,0 +1,333 @@
+<resources>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base"></style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+<style name="MyEditText" parent="Theme.AppCompat.Light"> 
+ <item name="colorControlNormal">@color/primary</item> 
+ <item name="colorControlActivated">@color/pink</item>
+</style>
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style>
+
+    <style name="AppTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="qZonePublishProgressStyle">
+        <item name="android:maxWidth">30.0dip</item>
+        <item name="android:maxHeight">30.0dip</item>
+        <item name="android:minWidth">30.0dip</item>
+        <item name="android:minHeight">30.0dip</item>
+    </style>
+
+    <!-- 自定义loading dialog -->
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/full_transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="BottomDialog" parent="@style/Base.V7.Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="BottomDialog.Animation" parent="Animation.AppCompat.Dialog">
+        <item name="android:windowEnterAnimation">@anim/translate_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/translate_dialog_out</item>
+    </style>
+
+    <style name="footbar">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/text_size_10</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingTop">@dimen/space_1</item>
+        <item name="android:paddingBottom">@dimen/space_5</item>
+    </style>
+
+    <style name="main_footbar_radio" parent="footbar">
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+
+    <style name="MENU_Dialog_Fullscreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="PopupAnimation" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/activity_translate_in</item>
+        <item name="android:windowExitAnimation">@anim/activity_translate_out</item>
+    </style>
+	
+	<style name="PopupAnimation1" parent="android:Animation" mce_bogus="1">          
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>     
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>     
+    </style> 
+    
+	<style name="CustomDialogTheme" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 去掉dialog标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置dialog背景，这里也可以在XML布局里面写 -->
+        <!-- 设置是否悬浮 -->
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+	
+	<style name="ActionSheetDialogStyle" parent="@android:style/Theme.Dialog">
+ 
+   <!-- 背景透明 -->
+   <item name="android:windowBackground">@android:color/transparent</item>
+   <item name="android:windowContentOverlay">@null</item>
+   <!-- 浮于Activity之上 -->
+   <item name="android:windowIsFloating">true</item>
+   <!-- 边框 -->
+   <item name="android:windowFrame">@null</item>
+   <!-- Dialog以外的区域模糊效果 -->
+   <item name="android:backgroundDimEnabled">true</item>
+   <!-- 无标题 -->
+   <item name="android:windowNoTitle">true</item>
+   <!-- 半透明 -->
+   <item name="android:windowIsTranslucent">true</item>
+   <!-- Dialog进入及退出动画 -->
+   <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimation</item>
+ </style>
+ <!-- ActionSheet进出动画 -->
+ <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+   <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+   <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+ </style>
+    <!-- Application theme. -->
+
+    <style name="MyDialog" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@drawable/none</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <style name="NativeDialog" parent="@style/MyDialog">
+    </style>
+
+    
+    <style name="text_title_blank">
+        <item name="android:textColor">@color/cc_text_blank</item>
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+    
+    <style name="text_title_dark">
+        <item name="android:textColor">@color/cc_text_dark</item>
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+    
+    <style name="text_title_darklight">
+        <item name="android:textColor">@color/cc_text_darklight</item>
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+    
+    <style name="text_title_logolight">
+        <item name="android:textColor">@color/cc_text_logolight</item>
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+    
+    <style name="text_title_light">
+        <item name="android:textColor">@color/cc_text_light</item>
+        <item name="android:textSize">@dimen/text_title</item>
+    </style>
+    
+    <style name="text_mintitle_dark">
+        <item name="android:textColor">@color/cc_text_dark</item>
+        <item name="android:textSize">@dimen/text_mintitle</item>
+    </style>
+    
+    <style name="text_mintitle_green">
+        <item name="android:textColor">@color/cc_green</item>
+        <item name="android:textSize">@dimen/text_mintitle</item>
+    </style>
+
+    <style name="text_subig_dark">
+        <item name="android:textColor">@color/cc_text_dark</item>
+        <item name="android:textSize">@dimen/text_subig</item>
+    </style>
+    
+    <style name="text_subig_orage">
+        <item name="android:textColor">@color/cc_orage</item>
+        <item name="android:textSize">@dimen/text_subig</item>
+    </style>
+    
+    <style name="text_subig_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_subig</item>
+    </style>
+
+    <style name="text_big_cofee">
+        <item name="android:textColor">@color/cc_cofee</item>
+        <item name="android:textSize">@dimen/text_big</item>
+    </style>
+
+    <style name="text_big_orage">
+        <item name="android:textColor">@color/cc_orage</item>
+        <item name="android:textSize">@dimen/text_big</item>
+    </style>
+    
+    <style name="text_big_green">
+        <item name="android:textColor">@color/cc_green</item>
+        <item name="android:textSize">@dimen/text_big</item>
+    </style>
+
+    <style name="text_big_dark">
+        <item name="android:textColor">@color/cc_text_dark</item>
+        <item name="android:textSize">@dimen/text_big</item>
+    </style>
+    
+    <style name="text_big_blank">
+        <item name="android:textColor">@color/cc_text_blank</item>
+        <item name="android:textSize">@dimen/text_big</item>
+    </style>
+    
+    <style name="text_big_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_big</item>
+    </style>
+
+    <style name="text_nomal_blank">
+        <item name="android:textColor">@color/cc_text_blank</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+
+    <style name="text_nomal_dark">
+        <item name="android:textColor">@color/cc_text_dark</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+
+    <style name="text_nomal_green">
+        <item name="android:textColor">@color/cc_green</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+    
+    <style name="text_nomal_bluelight">
+        <item name="android:textColor">@color/cc_bluelight</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+    
+    <style name="text_nomal_orage">
+        <item name="android:textColor">@color/cc_orage</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+    
+    <style name="text_nomal_orage_red">
+        <item name="android:textColor">@color/cc_orage_red</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+    
+    <style name="text_nomal_red">
+        <item name="android:textColor">@color/cc_red</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+    
+    <style name="text_nomal_darklight">
+        <item name="android:textColor">@color/cc_text_darklight</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+    
+    <style name="text_nomal_logolight">
+        <item name="android:textColor">@color/cc_text_logolight</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+
+    <style name="text_nomal_light">
+        <item name="android:textColor">@color/cc_text_light</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+    
+    <style name="text_nomal_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_nomal</item>
+    </style>
+
+    <style name="text_small_dark">
+        <item name="android:textColor">@color/cc_text_dark</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+    
+    <style name="text_small_blank">
+        <item name="android:textColor">@color/cc_text_blank</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+    
+    <style name="text_small_orage">
+        <item name="android:textColor">@color/cc_orage</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+    
+    <style name="text_small_red">
+        <item name="android:textColor">@color/cc_red</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+    
+    <style name="text_small_green">
+        <item name="android:textColor">@color/cc_green</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+    
+    <style name="text_small_darklight">
+        <item name="android:textColor">@color/cc_text_darklight</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="text_small_light">
+        <item name="android:textColor">@color/cc_text_light</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+    
+    <style name="text_smalltiny_green">
+        <item name="android:textColor">@color/cc_green</item>
+        <item name="android:textSize">@dimen/text_smalltiny</item>
+    </style>
+    
+    <style name="text_smalltiny_red">
+        <item name="android:textColor">@color/cc_red</item>
+        <item name="android:textSize">@dimen/text_smalltiny</item>
+    </style>
+    
+    <style name="text_tiny_light">
+        <item name="android:textColor">@color/cc_text_light</item>
+        <item name="android:textSize">@dimen/text_tiny</item>
+    </style>
+    
+    <style name="text_tiny_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_tiny</item>
+    </style>
+
+    <style name="MyStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+</resources>

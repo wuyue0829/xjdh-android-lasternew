@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_10"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/space_10" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="分公司:"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size_20" />
+
+                <Spinner
+                    android:id="@+id/sp_city"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:minHeight="40dp"
+                    android:background="@drawable/edits"
+                    android:spinnerMode="dialog" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="分局:"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size_20" />
+
+                <Spinner
+                    android:id="@+id/sp_county"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:minHeight="40dp"
+                    android:background="@drawable/edits"
+                    android:spinnerMode="dialog" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="所属局站:"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size_20" />
+
+                <Spinner
+                    android:id="@+id/sp_substation"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="40dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/edits"
+                    android:spinnerMode="dialog" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="所属机房:"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size_20" />
+
+                <Spinner
+                    android:id="@+id/sp_room"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:minHeight="40dp"
+                    android:background="@drawable/edits"
+                    android:spinnerMode="dialog" />
+
+                <TextView
+                    android:id="@+id/tv_pre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="工作类别："
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/spCategory"
+                     android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:minHeight="30dp"
+                    android:background="@drawable/kkk"
+                    android:textColor="#999999"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_pre3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="参与人员："
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/etPerson"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:minHeight="30dp"
+                    android:background="@drawable/kkk"
+                    android:textColor="#999999"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_pre4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="top"
+                    android:text="工作内容："
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/etMemo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/kkk"
+                    android:gravity="left|center"
+                    android:maxLines="20"
+                    android:layout_marginRight="10dp"
+                    android:minHeight="100dp"
+                    android:textColor="#999999"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@+id/ll_lowwarn4" />
+
+            <RelativeLayout
+                android:id="@+id/ll_lowwarn5"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:minHeight="30dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tv_pre5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="日 	     期："
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvDate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/tv_pre5"
+                    android:gravity="left|center"
+                    android:minHeight="30dp"
+                    android:paddingLeft="20dp"
+                    android:background="@drawable/kkk"
+                    android:textColor="#999999"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/etDate"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="22dp"
+                    android:background="@drawable/ri" />
+            </RelativeLayout>
+
+            <com.chinatelecom.xjdh.view.MyGridView
+                android:id="@+id/gggridview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_lowwarn7"
+                android:layout_margin="10dp"
+                android:horizontalSpacing="5dp"
+                android:numColumns="4"
+                android:verticalSpacing="5dp" >
+            </com.chinatelecom.xjdh.view.MyGridView>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp" >
+
+                <Button
+                    android:id="@+id/saveMassage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_login"
+                    android:text="保   存"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/quxiao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_login"
+                    android:text="取    消"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+</ScrollView>

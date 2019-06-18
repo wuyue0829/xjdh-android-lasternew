@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="new_message_sound">new_message_sound</string>
+    <string name="new_message_vibrate">new_message_vibrate</string>
+    <string name="new_message_background">new_message_background</string>
+    <string name="app_update">app_update</string>
+    <string name="app_about">app_about</string>
+    <string name="logout">logout</string>
+    <string name="app_exit">app_exit</string>
+    <string name="app_feedback">app_feedback</string>
+
+</resources>

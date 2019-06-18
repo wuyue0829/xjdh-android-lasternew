@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slv"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:orientation="vertical" >
+
+    <!-- 自定义dialog的布局，若要控制自定义dialog的长度和宽度只需设置android:layout_width和android:layout_height属性就好 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#f08000"
+            android:orientation="horizontal" >
+            
+            <ImageView 
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:src="@drawable/abc_ic_ab_back_mtrl_am_alpha"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="执行结果"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f08000" />
+
+			<TextView 
+			    android:id="@+id/result"
+			    android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="文件内容"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />/>
+           </LinearLayout>
+
+</ScrollView>

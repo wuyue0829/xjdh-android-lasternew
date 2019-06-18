@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 新疆动环监控 -->
+    <string name="app_names">新疆动环监控</string>
+    <string name="action_settings">设置</string>
+    <string name="login_prompt">登录中</string>
+    <string name="feedback_msg">App不好用，有意见、建议，反馈一下，帮助我们做的更好。</string>
+    <string name="network_err_msg">您的网络好像出问题了，请连接网络重新试试...</string>
+    <string name="network_down">网络连接已断开</string>
+    <string name="network_up">网络连接已恢复</string>
+    <string name="progress_loading_msg">加载数据中...</string>
+    <string name="starting_point">起点：</string>
+    <string name="my_location">我的位置</string>
+    <string name="drive_search">驾车搜索</string>
+    <string name="bus_search">公交搜索</string>
+    <string name="walk_search">步行搜索</string>
+    <string name="destination">终点:</string>
+    <string name="route_info">路线详情</string>
+    <string name="cancel">取消</string>
+    <string name="take_photo">拍照</string>
+    <string name="select_from_local">从相册中选取</string>
+    <string name="finish">完成</string>
+    <string name="invalidSD">sdcard无效或没有插入！</string>
+    <string name="photo">选择相册</string>
+    <string name="album">相册</string>
+    <string name="preview">预览</string>
+    <string name="unfinished">完成</string>
+    <string name="camera_cancel">取消</string>
+    <string name="home_text1">远程语音</string>
+    <string name="home_subtext1">指定机房，进行双向语音对讲</string>
+    <string name="home_text2">广播通知</string>
+    <string name="home_subtext2">选择机房进行语音广播通知</string>
+    <string name="home_text3">静音监听</string>
+    <string name="home_subtext3">选定机房，进行静音监听</string>
+    <string name="home_text4">语音通话</string>
+    <string name="home_subtext4">管理人员进行语音通话</string>
+    <string name="home_text5">远程支援</string>
+    <string name="home_subtext5">呼叫监控中心，进行远程支援</string>
+    <string-array name="spdev_array">
+        <item>串口0</item>
+        <item>串口1</item>
+        <item>串口2</item>
+        <item>串口3</item>
+        <item>串口4</item>
+    </string-array>
+    <string-array name="spdev_rate_array">
+        <item>1200</item>
+        <item>2400</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>115200</item>
+    </string-array>
+
+    <string name="str_login">Login</string>
+    <string name="str_numpad">NumPad</string>
+    <string name="str_video">Video</string>
+    <string name="str_message">Message</string>
+    <string name="str_setting">Setting</string>
+
+    <!-- login fragment -->
+    <string name="str_optional">Optional</string>
+    <string name="str_username">UserName</string>
+    <string name="str_displayname">DisplayName</string>
+    <string name="str_authName">AuthName</string>
+    <string name="str_password">Password</string>
+    <string name="str_userDomain">UserDomain</string>
+    <string name="str_requried">Required</string>
+    <string name="str_transport">Transport</string>
+    <string name="str_srtp">SRTP</string>
+
+    <string name="str_SIPServer">SIPServer</string>
+    <string name="str_SIPServerPort">SIPServerPort</string>
+    <string name="str_StunServer">StunServer</string>
+    <string name="str_StunServerPort">StunServerPort</string>
+    <string name="str_localSIPPort">LocalSIPPort</string>
+
+    <string-array name="transports">
+        <item >UDP</item>
+        <item >TLS</item>
+        <item >TCP</item>
+        <item >PERS_UDP</item>
+        <item >PERS_TCP</item>
+    </string-array>
+
+    <string-array name="lines">
+        <item >Line-0</item>
+        <item >Line-1</item>
+        <item >Line-2</item>
+        <item >Line-3</item>
+        <item >Line-4</item>
+        <item >Line-5</item>
+        <item >Line-6</item>
+        <item >Line-7</item>
+    </string-array>
+
+    <string-array name="srtp">
+        <item >None</item>
+        <item >Force</item>
+        <item >Prefer</item>
+    </string-array>
+
+
+    <string name="outboundServer">outboundServer</string>
+    <string name="outboundServerPort">outboundServerPort</string>
+    <string name="register">Login</string>
+    <string name="unregister">Logout</string>
+    <string name="registed">available</string>
+    <string name="not_reg">sign out</string>
+
+
+    <!--for NumPad  -->
+    <string name="str_videocall">VideoCall</string>
+    <string name="str_acceptvideo">AcceptVideo</string>
+    <string name="str_conference">Conference</string>
+
+    <string name="str_dial">Dial</string>
+    <string name="str_vcall">Video Call</string>
+    <string name="str_acall">Audio Call</string>
+    <string name="str_del">Del</string>
+    <string name="str_hold">Hold</string>
+    <string name="str_unhold">UnHold</string>
+    <string name="str_reject">Reject</string>
+    <string name="str_att_transfer">Attend Transfer</string>
+    <string name="str_transfer">Transfer</string>
+
+    <string name="str_hangup">Hangup</string>
+    <string name="str_speakon">SpeakOn</string>
+    <string name="str_refer">Refer</string>
+    <string name="str_mute">Mute</string>
+    <string name="str_answer">Answer</string>
+
+    <!-- message -->
+    <string name="subscribe">Subscribe</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="publish">Publish</string>
+    <string name="unpublish">Unpublish</string>
+    <string name="str_sendmsg">Send</string>
+    <string name="str_sendsdp">SendSDP</string>
+    <string name="str_confrence">Conference</string>
+    <string name="str_setstatus">Set</string>
+    <string name="str_status">Status :</string>
+    <string name="str_clear">Clear</string>
+    <string name="str_update">Subscribe</string>
+
+    <string name="str_accept">Accept</string>
+    <string name="str_refuse">Refuse</string>
+
+    <string name="str_sendto">Send to:</string>
+
+    <string name="contact">Contact</string>
+    <string name="message">Message</string>
+    <string name="sipsample">SipSample</string>
+
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+
+    <string name="website">website:http://www.portsip.com</string>
+    <string name="email">email:sales@portsip.com</string>
+
+
+
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+
+    <!-- string name="str_status">Status :</string -->
+    <string name="str_tips">..</string>
+
+    <string name="line">line-</string>
+
+    <!--for setting  -->
+    <string name="MEDIA_G722">MEDIA_G722</string>
+    <string name="MEDIA_G729">MEDIA_G729</string>
+    <string name="MEDIA_AMR">MEDIA_AMR</string>
+    <string name="MEDIA_AMRWB">MEDIA_AMRWB</string>
+    <string name="MEDIA_GSM">MEDIA_GSM</string>
+    <string name="MEDIA_PCMA">MEDIA_PCMA</string>
+    <string name="MEDIA_PCMU">MEDIA_PCMU</string>
+    <string name="MEDIA_SPEEX">MEDIA_SPEEX</string>
+    <string name="MEDIA_SPEEXWB">MEDIA_SPEEXWB</string>
+    <string name="MEDIA_ILBC">MEDIA_ILBC</string>
+    <string name="MEDIA_ISACWB">MEDIA_ISACWB</string>
+    <string name="MEDIA_ISACSWB">MEDIA_ISACSWB</string>
+    <string name="MEDIA_G7221">MEDIA_G7221</string>
+    <string name="MEDIA_OPUS">MEDIA_OPUS</string>
+    <string name="MEDIA_DTMF">MEDIA_DTMF</string>
+
+    <string name="string_audiofeature">Audio Feature</string>
+    <string name="MEDIA_VAD">MEDIA_VAD</string>
+    <string name="MEDIA_AEC">MEDIA_AEC</string>
+    <string name="MEDIA_ANS">MEDIA_ANS</string>
+    <string name="MEDIA_AGC">MEDIA_AGC</string>
+    <string name="MEDIA_CNG">MEDIA_CNG</string>
+
+
+    <string name="string_video">Video</string>
+    <string name="MEDIA_H264">MEDIA_H264</string>
+    <string name="MEDIA_VP8">MEDIA_VP8</string>
+    <string name="MEDIA_VP9">MEDIA_VP9</string>
+
+
+    <string name="str_resolution_title">Select a resolution</string>
+    <string name="str_resolution">Resolution</string>
+    <string name="str_resolution_default">CIF</string>
+    <string-array name="arr_resolution">
+        <item >QCIF</item>
+        <item >CIF</item>
+        <item >VGA</item>
+        <item >720P</item>
+        <item >1080P</item>
+    </string-array>
+
+    <string name="str_bitrate">Bitrate</string>
+
+    <string name="str_avpath">Audio and Vedio recording</string>
+    <string name="str_avpathtitle">Record file directory</string>
+    <string name="str_avpathkey">AVpath</string>
+
+    <string name="str_forward">Forward</string>
+    <string name="str_fwopentitle">Enable forward call</string>
+    <string name="str_fwopenkey">ForwardEnable</string>
+    <string name="str_fwtotitle">Forward call to:</string>
+    <string name="str_fwtokey">Forwardto</string>
+    <string name="str_fwbusytitle">Forward call when busy</string>
+    <string name="str_fwbusykey">ForwardBusy</string>
+
+    <string name="str_prack">PRACK</string>
+    <string name="str_pracktitle">Enable PRACK</string>
+</resources>

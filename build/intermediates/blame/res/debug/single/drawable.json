@@ -1,0 +1,510 @@
+[
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_press_no_corner.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\selector_btn_press_no_corner.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_press_right_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\selector_btn_press_right_bottom.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_ios_roundcorner_all_top_white.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\bg_ios_roundcorner_all_top_white.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\drop.9.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\drop.9.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\widget_bar_alarm.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\widget_bar_alarm.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_add_pic.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\btn_add_pic.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_ios_roundcorner_all_top_gray.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\bg_ios_roundcorner_all_top_gray.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\sc_publish_spinner.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\sc_publish_spinner.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_ios_roundcorner.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\bg_ios_roundcorner.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_thumb.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\seekbar_thumb.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_cancel.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\btn_cancel.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_ios_roundcorner_gray.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\bg_ios_roundcorner_gray.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_bg_shape.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\edit_bg_shape.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_bg_corner.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\custom_bg_corner.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_myprogressdialog_e_close.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\icon_myprogressdialog_e_close.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\text_selector.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\text_selector.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_large.gif",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\loading_large.gif"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_press_all.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\selector_btn_press_all.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_ios_roundcorner_all_bottom_gray.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\bg_ios_roundcorner_all_bottom_gray.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_login_p.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\btn_login_p.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\et_cursor.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\et_cursor.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_press_left_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\selector_btn_press_left_bottom.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\activity_translate_out.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\activity_translate_out.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_small.gif",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\loading_small.gif"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_animation.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\progressbar_animation.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\csx_sdk_zc_fullscreen.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\csx_sdk_zc_fullscreen.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_forward_w.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\ic_forward_w.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_toast.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\bg_toast.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_ios_roundcorner_left_bottom_gray.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\bg_ios_roundcorner_left_bottom_gray.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_pic_choose_selector.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\plugin_camera_pic_choose_selector.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_rect_btn_white.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\shape_rect_btn_white.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_bg.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\list_item_bg.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_albumbackground.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\plugin_camera_albumbackground.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_nobgd.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\bt_nobgd.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\csx_sdk_zc_down_yinying.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\csx_sdk_zc_down_yinying.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_myprogressdialog_e_nor.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\shape_myprogressdialog_e_nor.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_press_all_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\selector_btn_press_all_bottom.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_play.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\ic_play.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\widget_bar_text_color.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\widget_bar_text_color.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\activity_translate_in.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\activity_translate_in.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\window_warning.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\window_warning.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\popup_enter.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\popup_enter.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\image_selected.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\image_selected.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\btn_white.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\vpi__tab_indicator.xml",
+        "source": "E:\\2019Files\\xjdh-android\\viepagerindicator_library\\build\\intermediates\\bundles\\default\\res\\drawable\\vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\text_while.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\text_while.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\login_form_bg_corner.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\login_form_bg_corner.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_pause.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\ic_pause.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_collect_upload.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\btn_collect_upload.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\csx_sdk_zc_player_setting_bright_progressbar.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\csx_sdk_zc_player_setting_bright_progressbar.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_confirm.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\btn_confirm.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_back.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\icon_back.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_press_all_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\selector_btn_press_all_top.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_ios_roundcorner_right_bottom_gray.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\bg_ios_roundcorner_right_bottom_gray.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\item_menu_selector.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\item_menu_selector.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_ios_roundcorner_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\bg_ios_roundcorner_top.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_backward_w.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\ic_backward_w.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\progressstyleshape.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\progressstyleshape.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_crop_circle.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\ic_crop_circle.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white_n.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\btn_white_n.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\line.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\line.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\btn.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\btn.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\po_seekbar.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\po_seekbar.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_rect_btn_off.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\shape_rect_btn_off.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_ios_roundcorner_left_bottom_white.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\bg_ios_roundcorner_left_bottom_white.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_ios_roundcorner_progress.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\bg_ios_roundcorner_progress.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_login_n.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\btn_login_n.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_title_btn_preview.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\plugin_camera_title_btn_preview.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_ios_roundcorner_all_bottom_white.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\bg_ios_roundcorner_all_bottom_white.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\csx_sdk_zc_pause.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\csx_sdk_zc_pause.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\widget_bar_monitor.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\widget_bar_monitor.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_title_btn_back.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\plugin_camera_title_btn_back.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_del_state.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\plugin_camera_del_state.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_title_btn_cancel.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\plugin_camera_title_btn_cancel.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_bg1.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\checkbox_bg1.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\button_style.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\button_style.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\popup_exit.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\popup_exit.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_ios_roundcorner_right_bottom_white.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\bg_ios_roundcorner_right_bottom_white.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_del.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\btn_del.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_ok_btn_state.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\plugin_camera_ok_btn_state.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_white_p.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\btn_white_p.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\none.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\none.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_rect_btn_orage.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\shape_rect_btn_orage.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_login.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\btn_login.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\menu_background.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable\\menu_background.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_ios_roundcorner_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\bg_ios_roundcorner_bottom.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_toast_loading.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\bg_toast_loading.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_nomal.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\drawable\\edittext_nomal.xml"
+    }
+]

@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.chinatelecom.xjdh"
+    android:installLocation="auto"
+    android:versionCode="28"
+    android:versionName="2.4.11">
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="21" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.USE_SIP"/>
+    <uses-permission android:name="android.permission.CONFIGURE_SIP"/>
+
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- 蓝牙 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.NFC" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+    <!-- SD卡 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATIO" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- SD卡读取权限，用户写入离线定位数据 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <!-- 允许应用读取低级别的系统日志文件 -->
+    <uses-permission android:name="android.permission.READ_LOGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="false"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name=".app.AppContext_"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_names"
+        android:theme="@style/AppTheme"
+        tools:replace="icon,label,theme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="VHIjmRmZDj4mRwGGVOcut9BdNGN8lrkK" />
+
+        <activity
+            android:name=".app.AppStart_"
+            android:label="@string/app_names"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.ultrapower.android.me.APP" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.SurveillanceActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+
+        </activity>
+        <activity
+            android:name=".ui.DoorListActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.RstpVideoActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.RtspPlayersActivity_"
+            android:configChanges="orientation|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.RtspPlayerActivity_"
+            android:configChanges="orientation|keyboardHidden|screenLayout|screenSize"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".scan.CaptureActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.EditActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.UserBackActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.CodeActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.NavigationActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.PWDActivity_"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".ui.LoginActivity_"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.DoorActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.AcceptanceActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.SecurityActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.StationPhotoActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.PersonGraphActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.DoneRoomActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.DoneActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.ManageActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.EnergysActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.UncommittActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.AboutActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.WorkRealismActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:launchMode="singleTop">
+
+        </activity>
+        <activity
+            android:name=".ui.ComputerRoomActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.EquipmentSubActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".uploadimg.BitmapCache_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.FaultDetailActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".uploadimg.GalleryActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.ToolUploadActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".uploadimg.AlbumActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".uploadimg.ImageFile_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".uploadimg.ShowAllPhoto_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.AutographActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.EditDevActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.ModifyActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".ui.NewFaultActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".ui.UploadSignActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".uploadimg.ImageZoomActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".uploadimg.ImageChooseActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".uploadimg.ImageBucketChooseActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.AnswerUploadActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.SeePhotosActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.RealtimeAlarmActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.BoardSettingActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.SPDevTestActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.NetworkTestActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.SMDDeviceMonitor_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.TestEquipmentActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".ui.DevMonitorListActivity_"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".ui.MainActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".ui.AlarmActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:launchMode="singleTop" />
+
+        <activity
+            android:name=".ui.PDMainActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard">
+        </activity>
+
+        <activity
+            android:name=".ui.DoingActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.DoingToolActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.MonitorActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.MonSeachActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.RoomListActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.AllStationActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard" />
+        <activity
+            android:name=".ui.RoomDevListActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.WebViewActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard" />
+        <activity
+            android:name=".ui.QuestionActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AllFaultActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.OverhaulActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.SubmitFaultActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.DetailsActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ModeActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ConstructionActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.FaultStationActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.FaultDeviceActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.FaultRoomActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AnswerActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.Real_Edit_timeActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.Door_Edit_ListActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.PingActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.PingResult1_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.RealtimeActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.FeedBackActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.SettingActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.TextBluetoothActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.StationAcceptanceActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.EquipmentActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AlarmDetailActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.StationActyivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ChartActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.LocationDemo_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.UserDetailActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.MessageCenterActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <!-- 预告警 -->
+        <activity
+            android:name=".ui.PreAlarmActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <!-- 预告警详细信息 -->
+        <activity
+            android:name=".ui.PreAlarmDetailActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <!-- 局站采集 -->
+        <activity
+            android:name=".ui.StationCollectActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard">
+
+        </activity>
+        <!-- 添加局站 -->
+        <activity
+            android:name=".ui.AppendStationActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard">
+
+        </activity>
+        <!-- 采集 -->
+        <activity
+            android:name=".ui.CollectActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask">
+
+        </activity>
+        <!-- 局站列表 -->
+        <activity
+            android:name=".ui.StationListActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:windowSoftInputMode="adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ui.AcceptanceGroupingActivity_"
+            android:configChanges="orientation|keyboardHidden|screenSize|keyboard"
+            android:windowSoftInputMode="adjustPan">
+
+        </activity>
+
+        <!-- 路线规划 -->
+        <activity
+            android:name=".location.RoutePlanDemo_"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".ui.ViewPhotosActivity_">
+
+        </activity>
+        <!-- 新建分组 -->
+        <activity android:name=".ui.NewGroupingActivity_">
+
+        </activity>
+        <!-- 分组名称 -->
+        <activity android:name=".ui.GroupingNameActivity_">
+
+        </activity>
+        <!-- 局站名称与分组Activity -->
+        <activity android:name=".ui.StationListGroupingActivity_">
+
+        </activity>
+        <!-- 局站分组 -->
+        <activity android:name=".ui.StationGroupingActivity_"></activity>
+        <!-- 读取NFC -->
+        <activity
+            android:name=".ui.ReadNfcNumber_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.EnergyActivity_"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ultrapower.auth.AuthWbLoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+
+            <!-- 配置统一认证平台的服务地址和端口serverAddress 必需 -->
+            <meta-data
+                android:name="serverAddress"
+                android:value="oauth.ctinm.com:55001" />
+
+            <!-- 配置第三方应用的clientId 必需 -->
+            <meta-data
+                android:name="clientId"
+                android:value="650228RING" />
+        </activity>
+
+        <service android:name=".service.ScheduleService_" />
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+
+        <receiver android:name=".receiver.AppBroadcastReceiver_">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".ui.RtspVideoPlayActivity"
+                  android:configChanges="orientation|keyboardHidden|screenSize"></activity>
+        <activity android:name=".ui.ChooseAreaActivity"
+            android:screenOrientation="portrait"
+            />
+
+        <activity
+            android:name=".ui.ChooseConversationActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name=".ui.ChooseRoomActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".ui.BroadcastVoiceActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask">
+        </activity>
+        <activity
+            android:name=".ui.ChooseManyRoomActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity
+            android:name=".ui.ChooseStationActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity android:name=".ui.CallActivity"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.CallInComeActivity"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.ChooseVdioeRoomActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <service android:name=".service.PortSipService">
+
+        </service>
+
+        <!--Cap查询-->
+        <meta-data
+            android:name="com.juphoon.voipapi.APP_KEY"
+            android:value="cb5e2617812554229e2221cae7d8d447" />
+
+
+    </application>
+
+</manifest>

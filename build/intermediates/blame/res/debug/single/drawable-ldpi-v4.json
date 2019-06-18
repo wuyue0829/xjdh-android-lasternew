@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_camera_enhance_black_24dp.png",
+        "source": "E:\\2019Files\\xjdh-android\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_camera_enhance_black_24dp.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_camera.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\bc34385f2cfa9d5903a3eb55cdbb3cb733db3094\\output\\res\\drawable-ldpi-v4\\ic_camera.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\qrcode.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable-ldpi\\qrcode.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_flash_off.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\bc34385f2cfa9d5903a3eb55cdbb3cb733db3094\\output\\res\\drawable-ldpi-v4\\ic_flash_off.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\scan_light.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable-ldpi\\scan_light.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\code.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable-ldpi\\code.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\drawable-ldpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_flash_on.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\bc34385f2cfa9d5903a3eb55cdbb3cb733db3094\\output\\res\\drawable-ldpi-v4\\ic_flash_on.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_flash_auto.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\bc34385f2cfa9d5903a3eb55cdbb3cb733db3094\\output\\res\\drawable-ldpi-v4\\ic_flash_auto.png"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_photo.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\bc34385f2cfa9d5903a3eb55cdbb3cb733db3094\\output\\res\\drawable-ldpi-v4\\ic_photo.png"
+    }
+]

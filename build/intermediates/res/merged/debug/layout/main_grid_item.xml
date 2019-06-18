@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/space_10" >
+
+    <ImageView
+        android:id="@+id/menuitem_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:minHeight="50dp"
+        android:minWidth="50dp"
+        android:src="@drawable/ic_bell" />
+
+    <TextView
+        android:id="@+id/menuitem_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menuitem_image"
+        android:layout_centerHorizontal="true"
+        android:text="用户中心"
+        android:textColor="@color/primary_color"
+        android:textSize="@dimen/text_size_18" />
+
+</RelativeLayout>

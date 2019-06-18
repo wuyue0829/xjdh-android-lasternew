@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.chinatelecom.xjdh.ui.MainActivity_" >
+
+    <GridView
+        android:id="@+id/main_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:horizontalSpacing="@dimen/space_5"
+        android:numColumns="3"
+        android:paddingLeft="@dimen/space_10"
+        android:paddingRight="@dimen/space_10"
+        android:paddingTop="@dimen/space_20"
+        android:verticalSpacing="@dimen/space_5" >
+    </GridView>
+
+    <TextView
+        android:id="@+id/user_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="22sp"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:text="该用户无法进行操作！！！" />
+
+</RelativeLayout>

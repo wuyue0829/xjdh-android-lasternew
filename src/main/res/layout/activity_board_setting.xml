@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+         <Button
+        android:id="@+id/btnReadSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读取配置"
+                android:background="@drawable/btn_login"
+        android:textColor="@color/white"
+         />
+           <Button
+        android:id="@+id/btnWriteSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下发配置" 
+                android:background="@drawable/btn_login"
+        android:textColor="@color/white"
+        />
+    </LinearLayout>
+  <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+    
+     <TableRow
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="@dimen/space_10" >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="right"
+             android:text="服务器地址："
+             android:textSize="@dimen/space_18" />
+
+         <EditText
+             android:id="@+id/etServerAddr"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:inputType="textPostalAddress"
+             android:textSize="@dimen/space_18" />
+     </TableRow>
+     <TableRow
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="@dimen/space_10" >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="right"
+             android:text="设备ID："
+             android:textSize="@dimen/space_18" />
+
+         <EditText
+             android:id="@+id/etDeviceId"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:textSize="@dimen/space_18" />
+     </TableRow>
+     <TableRow
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="@dimen/space_10" >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="right"
+             android:text="IP地址1："
+             android:textSize="@dimen/space_18" />
+
+         <EditText
+             android:id="@+id/etIP0"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:inputType="textPostalAddress"
+             android:textSize="@dimen/space_18" />
+     </TableRow>
+      <TableRow
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="@dimen/space_10" >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="right"
+             android:text="子网掩码1："
+             android:textSize="@dimen/space_18" />
+
+         <EditText
+             android:id="@+id/etNetmask0"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:inputType="textPostalAddress"
+             android:textSize="@dimen/space_18" />
+     </TableRow>
+     <TableRow
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="@dimen/space_10" >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="right"
+             android:text="网关1："
+             android:textSize="@dimen/space_18" />
+
+         <EditText
+             android:id="@+id/etGateway0"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:inputType="textPostalAddress"
+             android:textSize="@dimen/space_18" />
+     </TableRow>
+     <TableRow
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="@dimen/space_10" >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="right"
+             android:text="DNS1："
+             android:textSize="@dimen/space_18" />
+
+         <EditText
+             android:id="@+id/etDns0"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:textSize="@dimen/space_18" />
+     </TableRow>
+     <TableRow
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="@dimen/space_10" >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="right"
+             android:text="IP地址2："
+             android:textSize="@dimen/space_18" />
+
+         <EditText
+             android:id="@+id/etIP1"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:textSize="@dimen/space_18" />
+     </TableRow>
+      <TableRow
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="@dimen/space_10" >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="right"
+             android:text="子网掩码2："
+             android:textSize="@dimen/space_18" />
+
+         <EditText
+             android:id="@+id/etNetmask1"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:textSize="@dimen/space_18" />
+     </TableRow>
+     <TableRow
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="@dimen/space_10" >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="right"
+             android:text="网关2："
+             android:textSize="@dimen/space_18" />
+
+         <EditText
+             android:id="@+id/etGateway1"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:textSize="@dimen/space_18" />
+     </TableRow>
+     <TableRow
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="@dimen/space_10" >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:gravity="right"
+             android:text="DNS2："
+             android:textSize="@dimen/space_18" />
+
+         <EditText
+             android:id="@+id/etDns1"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:textSize="@dimen/space_18" />
+     </TableRow>
+     </TableLayout>
+     </LinearLayout>
+</ScrollView>

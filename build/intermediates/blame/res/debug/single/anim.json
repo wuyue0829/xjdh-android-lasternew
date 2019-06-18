@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\slide_left_out.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\anim\\slide_left_out.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\translate_dialog_in.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\anim\\translate_dialog_in.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in_2.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\anim\\push_bottom_in_2.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\actionsheet_dialog_in.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\anim\\actionsheet_dialog_in.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\base_slide_right_in.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\anim\\base_slide_right_in.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\slide_left_in.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\anim\\slide_left_in.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\base_slide_remain.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\anim\\base_slide_remain.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_enter.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\anim\\dialog_enter.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\translate_dialog_out.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\anim\\translate_dialog_out.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\actionsheet_dialog_out.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\anim\\actionsheet_dialog_out.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right_out.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\anim\\slide_right_out.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\fade_ins.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\anim\\fade_ins.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_exit_center.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\anim\\dialog_exit_center.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\popup_exit.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\anim\\popup_exit.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\popup_enter.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\anim\\popup_enter.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\slide_right_in.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\anim\\slide_right_in.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\base_slide_right_out.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\anim\\base_slide_right_out.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_exit.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\anim\\dialog_exit.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_enter_center.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\\output\\res\\anim\\dialog_enter_center.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\activity_translate_out.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\anim\\activity_translate_out.xml"
+    },
+    {
+        "merged": "E:\\2019Files\\xjdh-android\\build\\intermediates\\res\\merged\\debug\\anim\\activity_translate_in.xml",
+        "source": "E:\\2019Files\\xjdh-android\\src\\main\\res\\anim\\activity_translate_in.xml"
+    }
+]

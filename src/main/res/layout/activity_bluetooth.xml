@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/slv"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_search_devices"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_login"
+            android:text="开始搜索" />
+
+        <Button
+            android:id="@+id/btn_close_devices"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            android:background="@drawable/btn_login"
+            android:text="停止搜索" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:text="请选择要调测的设备型号，然后从待选设备列表中选择名称为SMD302A的设备进行连接，默认连接密码为1234,连接过程一般小于5秒，超出5秒可认为连接超时，需要重试。" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:text="如设备没有出现在列表中，请使用手机自带蓝牙功能先进行设备配对，默认连接密码为1234,再返回本界面连接设备。" />
+    
+    	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:text="设备型号"
+	        android:textSize="22sp" />
+
+		<RadioGroup
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+
+	    <RadioButton
+	        android:id="@+id/rd302A"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:selectAllOnFocus="true"
+	        android:text="SMD302A" />
+
+	    <RadioButton
+	        android:id="@+id/rd301E"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:selectAllOnFocus="true"
+	        android:text="SMD301E" />
+
+		</RadioGroup>
+	    </LinearLayout>
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+   <TextView
+        android:id="@+id/tv_bonded_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_login"
+        android:text="已配对设备（长按设备可取消配对）"
+        android:layout_margin="3dp"
+        android:gravity="center"
+        android:padding="2dp"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <ListView
+        android:id="@+id/list_bonded_devices"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:scrollbars="none" />
+
+    <TextView
+        android:id="@+id/tv_search_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="@drawable/btn_login"
+        android:text="搜索到的设备"
+        android:gravity="center"
+        android:padding="2dp"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <ListView
+        android:id="@+id/list_search_devices"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:scrollbars="none" />
+   </LinearLayout>
+    
+    </LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#3F51B5"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="语音广播"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_head_return"
+            android:layout_width="60dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/nav_btn_back" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorH">
+
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="你将发送语音广播通知给这些机房"
+            android:textSize="14sp"
+            android:textColor="#7f7f7f"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="26dp"/>
+
+        <TextView
+            android:id="@+id/tv_title1"
+            android:layout_below="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:textSize="16sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="26dp"
+            android:maxLines="3"
+            android:text="乌鲁木齐->和田河源市中心局->电力室1，乌鲁木齐->和田河源市中心局->电力室1，乌鲁木齐->和田河源市中心局->电力室1"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f5f5f5">
+
+
+
+        <com.chinatelecom.xjdh.view.RingsView
+            android:id="@+id/rv_rings_circle"
+            android:layout_width="220dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85dp"
+            android:layout_height="220dp"
+            app:diffuse_color="#7b9ef1"
+            app:diffuse_coreColor="#7b9ef1"
+            app:diffuse_coreRadius="68dp"
+            app:rings_num="5"
+            app:rings_isRing="true"
+            app:rings_ringWidth="2dp"
+            app:rings_spaceColor="#f5f5f5" />
+
+
+        <ImageView
+            android:id="@+id/im_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="155.5dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/icon_luyin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/im_icon"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorH"
+            android:textSize="16sp"
+            android:text="按住说话"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/slidingmenu_library/slidingmenu_library.iml" filepath="$PROJECT_DIR$/slidingmenu_library/slidingmenu_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viepagerindicator_library/viepagerindicator_library.iml" filepath="$PROJECT_DIR$/viepagerindicator_library/viepagerindicator_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xjdh-android.iml" filepath="$PROJECT_DIR$/xjdh-android.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,1107 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:2:1-697:12
+	package
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:4:5-36
+	android:versionName
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:7:5-33
+		INJECTED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml
+		INJECTED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:6:5-29
+		INJECTED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml
+		INJECTED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:5:5-35
+uses-sdk
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:9:5-11:41
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Administrator\.android\build-cache\759a382c4cb936366dc02404e5755594743ce179\output\AndroidManifest.xml:18:5-42
+MERGED from [xjdh-android:slidingmenu_library:unspecified] E:\2019Files\xjdh-android\slidingmenu_library\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [xjdh-android:viepagerindicator_library:unspecified] E:\2019Files\xjdh-android\viepagerindicator_library\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:40
+MERGED from [com.zhy:okhttputils:2.6.2] C:\Users\Administrator\.android\build-cache\c167683afe6cb90cd32de64aa4f33f84db05fa5f\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Administrator\.android\build-cache\87c922624d21f87e124bfda35ba49cf645ea2771\output\AndroidManifest.xml:20:5-43
+MERGED from [com.github.hss01248:DialogUtil:1.17] C:\Users\Administrator\.android\build-cache\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.gjiazhe:wavesidebar:1.3] C:\Users\Administrator\.android\build-cache\10f80df96b081b6bc05b158892e877912f2f0f5b\output\AndroidManifest.xml:7:5-9:41
+MERGED from [cjt.library.wheel:camera:1.1.9] C:\Users\Administrator\.android\build-cache\bc34385f2cfa9d5903a3eb55cdbb3cb733db3094\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Administrator\.android\build-cache\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Administrator\.android\build-cache\47d2ba3e7ae6bd3d76c86a97d2e0cce2bf4b78c9\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Administrator\.android\build-cache\1b04cbede073c4a34f57a8734182bbb4c75ab780\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Administrator\.android\build-cache\772d67b645c6273217f6917ab7f83724be8f6a9d\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Administrator\.android\build-cache\bdb4392eccf641d3dda36c20b729cb44d3806c95\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Administrator\.android\build-cache\f5bf141f202ef3eaee6d849cd72eb2f083339da7\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Administrator\.android\build-cache\b14a2788edec3b87b69c4974160c6ecaa704b835\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Administrator\.android\build-cache\abafb99442fbed75ee0f75835f4dcfbe1063ede2\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Administrator\.android\build-cache\d8e36f90a51d8869ae1c56be93718d0d528852b9\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Administrator\.android\build-cache\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:11:9-38
+	android:minSdkVersion
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:10:9-35
+supports-screens
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:13:5-19:40
+	android:largeScreens
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:15:9-36
+	android:smallScreens
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:18:9-36
+	android:normalScreens
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:16:9-37
+	android:xlargeScreens
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:19:9-37
+	android:resizeable
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:17:9-34
+	android:anyDensity
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:14:9-34
+uses-permission#android.permission.USE_SIP
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:21:22-63
+uses-permission#android.permission.CONFIGURE_SIP
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:22:5-71
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:22:22-69
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:24:22-77
+uses-permission#android.permission.READ_CONTACTS
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:25:5-72
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:25:22-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:28:5-81
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:28:22-78
+uses-feature#android.hardware.camera
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:30:5-60
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:30:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:31:5-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:31:19-67
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:33:5-68
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:33:22-65
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:34:5-80
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:34:22-77
+uses-permission#android.permission.BLUETOOTH
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:37:5-68
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:37:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:38:5-74
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:38:22-71
+uses-permission#android.permission.NFC
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:39:5-62
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:39:22-59
+uses-feature#android.hardware.nfc
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:41:5-43:35
+	android:required
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:43:9-32
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:42:9-44
+uses-permission#android.permission.CAMERA
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:45:5-65
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:45:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:46:5-71
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:46:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:47:5-81
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:47:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:51:5-52:47
+	tools:ignore
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:52:9-44
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:51:22-81
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:54:5-78
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:54:22-75
+uses-permission#android.permission.VIBRATE
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:55:5-66
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:55:22-63
+uses-permission#android.permission.FLASHLIGHT
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:56:5-69
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:56:22-66
+uses-permission#android.permission.GET_TASKS
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:58:5-68
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:58:22-65
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:59:5-85
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:59:22-82
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:62:5-63:47
+	tools:ignore
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:63:9-44
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:62:22-70
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:64:5-81
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:64:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATIO
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:66:5-80
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:66:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:68:5-79
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:68:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:71:5-76
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:71:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:73:5-79
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:73:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:75:5-76
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:75:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:77:5-75
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:77:22-72
+uses-permission#android.permission.INTERNET
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:81:5-67
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:81:22-64
+uses-permission#android.permission.READ_LOGS
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:86:5-87:47
+	tools:ignore
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:87:9-44
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:86:22-65
+application
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:96:5-695:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Administrator\.android\build-cache\87c922624d21f87e124bfda35ba49cf645ea2771\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.hss01248:DialogUtil:1.17] C:\Users\Administrator\.android\build-cache\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.gjiazhe:wavesidebar:1.3] C:\Users\Administrator\.android\build-cache\10f80df96b081b6bc05b158892e877912f2f0f5b\output\AndroidManifest.xml:11:5-15:19
+MERGED from [cjt.library.wheel:camera:1.1.9] C:\Users\Administrator\.android\build-cache\bc34385f2cfa9d5903a3eb55cdbb3cb733db3094\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Administrator\.android\build-cache\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Administrator\.android\build-cache\47d2ba3e7ae6bd3d76c86a97d2e0cce2bf4b78c9\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Administrator\.android\build-cache\1b04cbede073c4a34f57a8734182bbb4c75ab780\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Administrator\.android\build-cache\772d67b645c6273217f6917ab7f83724be8f6a9d\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Administrator\.android\build-cache\bdb4392eccf641d3dda36c20b729cb44d3806c95\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Administrator\.android\build-cache\f5bf141f202ef3eaee6d849cd72eb2f083339da7\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Administrator\.android\build-cache\b14a2788edec3b87b69c4974160c6ecaa704b835\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Administrator\.android\build-cache\abafb99442fbed75ee0f75835f4dcfbe1063ede2\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Administrator\.android\build-cache\d8e36f90a51d8869ae1c56be93718d0d528852b9\output\AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:101:9-42
+		REJECTED from [com.github.hss01248:DialogUtil:1.17] C:\Users\Administrator\.android\build-cache\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\output\AndroidManifest.xml:13:9-41
+		REJECTED from [com.gjiazhe:wavesidebar:1.3] C:\Users\Administrator\.android\build-cache\10f80df96b081b6bc05b158892e877912f2f0f5b\output\AndroidManifest.xml:13:9-41
+		REJECTED from [cjt.library.wheel:camera:1.1.9] C:\Users\Administrator\.android\build-cache\bc34385f2cfa9d5903a3eb55cdbb3cb733db3094\output\AndroidManifest.xml:13:9-41
+	android:supportsRtl
+		ADDED from [com.github.hss01248:DialogUtil:1.17] C:\Users\Administrator\.android\build-cache\f52e8a00d0ccbc68a172a47039d25ca05ac8771d\output\AndroidManifest.xml:14:9-35
+	android:hardwareAccelerated
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:99:9-43
+	tools:ignore
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:104:9-48
+	android:allowBackup
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:98:9-35
+	android:icon
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:100:9-38
+	android:theme
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:102:9-40
+	tools:replace
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:103:9-41
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:97:9-40
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:105:9-107:64
+	android:value
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:107:13-61
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:106:13-52
+activity#com.chinatelecom.xjdh.app.AppStart_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:109:9-123:20
+	android:label
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:111:13-46
+	android:theme
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:112:13-71
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:110:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.LAUNCHER+com.ultrapower.android.me.APP
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:113:13-119:29
+action#com.ultrapower.android.me.APP
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:114:17-72
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:114:25-69
+action#android.intent.action.MAIN
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:115:17-69
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:115:25-66
+category#android.intent.category.DEFAULT
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:117:17-76
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:117:27-73
+category#android.intent.category.LAUNCHER
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:118:17-77
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:118:27-74
+intent-filter#android.nfc.action.NDEF_DISCOVERED
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:120:13-122:29
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:121:17-77
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:121:25-74
+activity#com.chinatelecom.xjdh.ui.SurveillanceActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:124:9-128:20
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:126:13-74
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:125:13-53
+activity#com.chinatelecom.xjdh.ui.DoorListActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:129:9-133:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:131:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:130:13-49
+activity#com.chinatelecom.xjdh.ui.RstpVideoActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:134:9-139:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:137:13-70
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:136:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:135:13-50
+activity#com.chinatelecom.xjdh.ui.RtspPlayersActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:140:9-145:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:143:13-70
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:142:13-59
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:141:13-52
+activity#com.chinatelecom.xjdh.ui.RtspPlayerActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:146:9-151:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:149:13-70
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:148:13-87
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:147:13-51
+activity#com.chinatelecom.xjdh.scan.CaptureActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:152:9-156:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:154:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:153:13-50
+activity#com.chinatelecom.xjdh.ui.EditActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:157:9-161:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:159:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:158:13-45
+activity#com.chinatelecom.xjdh.ui.UserBackActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:162:9-166:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:164:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:163:13-49
+activity#com.chinatelecom.xjdh.ui.CodeActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:167:9-171:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:169:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:168:13-45
+activity#com.chinatelecom.xjdh.ui.NavigationActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:172:9-176:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:174:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:173:13-51
+activity#com.chinatelecom.xjdh.ui.PWDActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:177:9-179:46
+	android:launchMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:179:13-43
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:178:13-44
+activity#com.chinatelecom.xjdh.ui.LoginActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:180:9-185:20
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:182:13-49
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:183:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:181:13-46
+activity#com.chinatelecom.xjdh.ui.DoorActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:186:9-190:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:188:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:187:13-45
+activity#com.chinatelecom.xjdh.ui.AcceptanceActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:191:9-195:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:193:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:192:13-51
+activity#com.chinatelecom.xjdh.ui.SecurityActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:196:9-200:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:198:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:197:13-49
+activity#com.chinatelecom.xjdh.ui.StationPhotoActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:201:9-205:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:203:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:202:13-53
+activity#com.chinatelecom.xjdh.ui.PersonGraphActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:206:9-210:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:208:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:207:13-52
+activity#com.chinatelecom.xjdh.ui.DoneRoomActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:211:9-215:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:213:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:212:13-49
+activity#com.chinatelecom.xjdh.ui.DoneActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:216:9-220:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:218:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:217:13-45
+activity#com.chinatelecom.xjdh.ui.ManageActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:221:9-225:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:223:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:222:13-47
+activity#com.chinatelecom.xjdh.ui.EnergysActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:226:9-230:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:228:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:227:13-48
+activity#com.chinatelecom.xjdh.ui.UncommittActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:231:9-235:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:233:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:232:13-50
+activity#com.chinatelecom.xjdh.ui.AboutActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:236:9-240:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:238:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:237:13-46
+activity#com.chinatelecom.xjdh.ui.WorkRealismActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:241:9-246:20
+	android:launchMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:244:13-43
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:243:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:242:13-52
+activity#com.chinatelecom.xjdh.ui.ComputerRoomActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:247:9-251:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:249:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:248:13-53
+activity#com.chinatelecom.xjdh.ui.EquipmentSubActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:252:9-257:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:255:13-70
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:254:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:253:13-53
+activity#com.chinatelecom.xjdh.uploadimg.BitmapCache_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:258:9-262:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:260:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:259:13-51
+activity#com.chinatelecom.xjdh.ui.FaultDetailActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:263:9-266:46
+	android:launchMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:266:13-43
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:265:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:264:13-52
+activity#com.chinatelecom.xjdh.uploadimg.GalleryActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:267:9-271:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:269:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:268:13-55
+activity#com.chinatelecom.xjdh.ui.ToolUploadActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:272:9-276:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:274:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:273:13-51
+activity#com.chinatelecom.xjdh.uploadimg.AlbumActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:277:9-281:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:279:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:278:13-53
+activity#com.chinatelecom.xjdh.uploadimg.ImageFile_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:282:9-286:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:284:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:283:13-49
+activity#com.chinatelecom.xjdh.uploadimg.ShowAllPhoto_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:287:9-291:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:289:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:288:13-52
+activity#com.chinatelecom.xjdh.ui.AutographActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:292:9-296:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:294:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:293:13-50
+activity#com.chinatelecom.xjdh.ui.EditDevActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:297:9-301:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:299:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:298:13-48
+activity#com.chinatelecom.xjdh.ui.ModifyActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:302:9-304:73
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:304:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:303:13-47
+activity#com.chinatelecom.xjdh.ui.NewFaultActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:305:9-307:73
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:307:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:306:13-49
+activity#com.chinatelecom.xjdh.ui.UploadSignActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:308:9-312:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:310:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:309:13-51
+activity#com.chinatelecom.xjdh.uploadimg.ImageZoomActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:313:9-317:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:315:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:314:13-57
+activity#com.chinatelecom.xjdh.uploadimg.ImageChooseActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:318:9-322:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:320:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:319:13-59
+activity#com.chinatelecom.xjdh.uploadimg.ImageBucketChooseActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:323:9-327:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:325:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:324:13-65
+activity#com.chinatelecom.xjdh.ui.AnswerUploadActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:328:9-332:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:330:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:329:13-53
+activity#com.chinatelecom.xjdh.ui.SeePhotosActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:333:9-337:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:335:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:334:13-50
+activity#com.chinatelecom.xjdh.ui.RealtimeAlarmActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:338:9-342:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:340:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:339:13-54
+activity#com.chinatelecom.xjdh.ui.BoardSettingActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:343:9-347:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:345:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:344:13-53
+activity#com.chinatelecom.xjdh.ui.SPDevTestActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:348:9-352:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:350:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:349:13-50
+activity#com.chinatelecom.xjdh.ui.NetworkTestActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:353:9-357:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:355:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:354:13-52
+activity#com.chinatelecom.xjdh.ui.SMDDeviceMonitor_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:358:9-362:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:360:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:359:13-49
+activity#com.chinatelecom.xjdh.ui.TestEquipmentActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:363:9-365:73
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:365:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:364:13-54
+activity#com.chinatelecom.xjdh.ui.DevMonitorListActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:366:9-368:73
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:368:13-70
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:367:13-55
+activity#com.chinatelecom.xjdh.ui.MainActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:369:9-371:77
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:371:13-74
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:370:13-45
+activity#com.chinatelecom.xjdh.ui.AlarmActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:372:9-375:46
+	android:launchMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:375:13-43
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:374:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:373:13-46
+activity#com.chinatelecom.xjdh.ui.PDMainActivity
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:377:9-381:20
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:379:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:380:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:378:13-46
+activity#com.chinatelecom.xjdh.ui.DoingActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:383:9-386:55
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:386:13-52
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:385:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:384:13-46
+activity#com.chinatelecom.xjdh.ui.DoingToolActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:387:9-390:55
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:390:13-52
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:389:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:388:13-50
+activity#com.chinatelecom.xjdh.ui.MonitorActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:391:9-394:55
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:394:13-52
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:393:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:392:13-48
+activity#com.chinatelecom.xjdh.ui.MonSeachActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:395:9-398:55
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:398:13-52
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:397:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:396:13-49
+activity#com.chinatelecom.xjdh.ui.RoomListActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:399:9-402:55
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:402:13-52
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:401:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:400:13-49
+activity#com.chinatelecom.xjdh.ui.AllStationActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:403:9-405:86
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:405:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:404:13-51
+activity#com.chinatelecom.xjdh.ui.RoomDevListActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:406:9-409:55
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:409:13-52
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:408:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:407:13-52
+activity#com.chinatelecom.xjdh.ui.WebViewActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:410:9-412:86
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:412:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:411:13-48
+activity#com.chinatelecom.xjdh.ui.QuestionActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:413:9-416:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:416:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:415:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:414:13-49
+activity#com.chinatelecom.xjdh.ui.AllFaultActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:417:9-420:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:420:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:419:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:418:13-49
+activity#com.chinatelecom.xjdh.ui.OverhaulActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:421:9-424:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:424:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:423:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:422:13-49
+activity#com.chinatelecom.xjdh.ui.SubmitFaultActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:425:9-428:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:428:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:427:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:426:13-52
+activity#com.chinatelecom.xjdh.ui.DetailsActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:429:9-432:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:432:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:431:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:430:13-48
+activity#com.chinatelecom.xjdh.ui.ModeActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:433:9-436:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:436:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:435:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:434:13-45
+activity#com.chinatelecom.xjdh.ui.ConstructionActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:437:9-440:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:440:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:439:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:438:13-53
+activity#com.chinatelecom.xjdh.ui.FaultStationActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:441:9-444:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:444:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:443:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:442:13-53
+activity#com.chinatelecom.xjdh.ui.FaultDeviceActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:445:9-448:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:448:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:447:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:446:13-52
+activity#com.chinatelecom.xjdh.ui.FaultRoomActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:449:9-452:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:452:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:451:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:450:13-50
+activity#com.chinatelecom.xjdh.ui.AnswerActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:453:9-456:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:456:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:455:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:454:13-47
+activity#com.chinatelecom.xjdh.ui.Real_Edit_timeActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:457:9-460:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:460:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:459:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:458:13-55
+activity#com.chinatelecom.xjdh.ui.Door_Edit_ListActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:461:9-464:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:464:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:463:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:462:13-55
+activity#com.chinatelecom.xjdh.ui.PingActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:465:9-468:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:468:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:467:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:466:13-45
+activity#com.chinatelecom.xjdh.ui.PingResult1_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:469:9-472:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:472:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:471:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:470:13-44
+activity#com.chinatelecom.xjdh.ui.RealtimeActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:473:9-476:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:476:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:475:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:474:13-49
+activity#com.chinatelecom.xjdh.ui.FeedBackActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:477:9-480:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:480:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:479:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:478:13-49
+activity#com.chinatelecom.xjdh.ui.SettingActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:481:9-484:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:484:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:483:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:482:13-48
+activity#com.chinatelecom.xjdh.ui.TextBluetoothActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:485:9-488:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:488:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:487:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:486:13-54
+activity#com.chinatelecom.xjdh.ui.StationAcceptanceActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:489:9-492:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:492:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:491:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:490:13-58
+activity#com.chinatelecom.xjdh.ui.EquipmentActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:493:9-496:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:496:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:495:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:494:13-50
+activity#com.chinatelecom.xjdh.ui.AlarmDetailActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:497:9-500:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:500:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:499:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:498:13-52
+activity#com.chinatelecom.xjdh.ui.StationActyivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:501:9-504:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:504:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:503:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:502:13-49
+activity#com.chinatelecom.xjdh.ui.ChartActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:505:9-508:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:508:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:507:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:506:13-46
+activity#com.chinatelecom.xjdh.ui.LocationDemo_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:509:9-512:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:512:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:511:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:510:13-45
+activity#com.chinatelecom.xjdh.ui.UserDetailActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:513:9-516:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:516:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:515:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:514:13-51
+activity#com.chinatelecom.xjdh.ui.MessageCenterActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:517:9-522:20
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:520:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:519:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:518:13-54
+activity#com.chinatelecom.xjdh.ui.PreAlarmActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:524:9-529:20
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:527:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:526:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:525:13-49
+activity#com.chinatelecom.xjdh.ui.PreAlarmDetailActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:531:9-536:20
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:534:13-49
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:533:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:532:13-55
+activity#com.chinatelecom.xjdh.ui.StationCollectActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:538:9-542:20
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:540:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:539:13-55
+activity#com.chinatelecom.xjdh.ui.AppendStationActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:544:9-548:20
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:546:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:545:13-54
+activity#com.chinatelecom.xjdh.ui.CollectActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:550:9-555:20
+	android:launchMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:553:13-44
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:552:13-74
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:551:13-48
+activity#com.chinatelecom.xjdh.ui.StationListActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:557:9-562:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:560:13-52
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:559:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:558:13-52
+activity#com.chinatelecom.xjdh.ui.AcceptanceGroupingActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:563:9-568:20
+	android:windowSoftInputMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:566:13-52
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:565:13-83
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:564:13-59
+activity#com.chinatelecom.xjdh.location.RoutePlanDemo_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:571:9-575:20
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:573:13-49
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:572:13-52
+activity#com.chinatelecom.xjdh.ui.ViewPhotosActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:576:9-578:20
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:576:19-57
+activity#com.chinatelecom.xjdh.ui.NewGroupingActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:580:9-582:20
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:580:19-58
+activity#com.chinatelecom.xjdh.ui.GroupingNameActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:584:9-586:20
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:584:19-59
+activity#com.chinatelecom.xjdh.ui.StationListGroupingActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:588:9-590:20
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:588:19-66
+activity#com.chinatelecom.xjdh.ui.StationGroupingActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:592:9-74
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:592:19-62
+activity#com.chinatelecom.xjdh.ui.ReadNfcNumber_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:594:9-596:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:596:13-49
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:595:13-46
+activity#com.chinatelecom.xjdh.ui.EnergyActivity_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:597:9-599:52
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:599:13-49
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:598:13-47
+activity#com.ultrapower.auth.AuthWbLoginActivity
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:600:9-613:20
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:602:13-74
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:601:13-67
+meta-data#serverAddress
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:605:13-607:57
+	android:value
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:607:17-54
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:606:17-45
+meta-data#clientId
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:610:13-612:46
+	android:value
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:612:17-43
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:611:17-40
+service#com.chinatelecom.xjdh.service.ScheduleService_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:615:9-61
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:615:18-58
+service#com.baidu.location.f
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:616:9-619:41
+	android:enabled
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:618:13-35
+	android:process
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:619:13-38
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:617:13-48
+receiver#com.chinatelecom.xjdh.receiver.AppBroadcastReceiver_
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:621:9-628:20
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:621:19-65
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.LAUNCHER+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:622:13-627:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:623:17-79
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:623:25-76
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:624:17-79
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:624:25-76
+activity#com.chinatelecom.xjdh.ui.RtspVideoPlayActivity
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:630:9-631:92
+	android:configChanges
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:631:19-80
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:630:19-59
+activity#com.chinatelecom.xjdh.ui.ChooseAreaActivity
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:632:9-634:15
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:633:13-49
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:632:19-56
+activity#com.chinatelecom.xjdh.ui.ChooseConversationActivity
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:636:9-640:20
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:638:13-49
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:637:13-58
+activity#com.chinatelecom.xjdh.ui.ChooseRoomActivity
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:642:9-646:20
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:644:13-49
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:643:13-50
+activity#com.chinatelecom.xjdh.ui.BroadcastVoiceActivity
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:647:9-651:20
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:649:13-49
+	android:launchMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:650:13-44
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:648:13-54
+activity#com.chinatelecom.xjdh.ui.ChooseManyRoomActivity
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:652:9-656:20
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:654:13-49
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:653:13-54
+activity#com.chinatelecom.xjdh.ui.ChooseStationActivity
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:657:9-661:20
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:659:13-49
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:658:13-53
+activity#com.chinatelecom.xjdh.ui.CallActivity
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:663:9-669:20
+	android:launchMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:664:13-43
+	android:theme
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:665:13-71
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:663:19-50
+intent-filter#android.intent.action.MAIN
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:666:13-668:29
+activity#com.chinatelecom.xjdh.ui.CallInComeActivity
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:671:9-677:20
+	android:launchMode
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:672:13-43
+	android:theme
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:673:13-71
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:671:19-56
+activity#com.chinatelecom.xjdh.ui.ChooseVdioeRoomActivity
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:679:9-683:20
+	android:screenOrientation
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:681:13-49
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:680:13-55
+service#com.chinatelecom.xjdh.service.PortSipService
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:685:9-687:19
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:685:18-56
+meta-data#com.juphoon.voipapi.APP_KEY
+ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:690:9-692:64
+	android:value
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:692:13-61
+	android:name
+		ADDED from E:\2019Files\xjdh-android\src\main\AndroidManifest.xml:691:13-55
+meta-data#android.support.VERSION
+ADDED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Administrator\.android\build-cache\87c922624d21f87e124bfda35ba49cf645ea2771\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\Administrator\.android\build-cache\5fa2fd7654117bbdbaff6a7d9eaa6f3250c3a070\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\Administrator\.android\build-cache\47d2ba3e7ae6bd3d76c86a97d2e0cce2bf4b78c9\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\Administrator\.android\build-cache\1b04cbede073c4a34f57a8734182bbb4c75ab780\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\Administrator\.android\build-cache\772d67b645c6273217f6917ab7f83724be8f6a9d\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\Administrator\.android\build-cache\bdb4392eccf641d3dda36c20b729cb44d3806c95\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\Administrator\.android\build-cache\f5bf141f202ef3eaee6d849cd72eb2f083339da7\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\Administrator\.android\build-cache\b14a2788edec3b87b69c4974160c6ecaa704b835\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\Administrator\.android\build-cache\abafb99442fbed75ee0f75835f4dcfbe1063ede2\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\Administrator\.android\build-cache\d8e36f90a51d8869ae1c56be93718d0d528852b9\output\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Administrator\.android\build-cache\87c922624d21f87e124bfda35ba49cf645ea2771\output\AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\Administrator\.android\build-cache\87c922624d21f87e124bfda35ba49cf645ea2771\output\AndroidManifest.xml:24:13-51
