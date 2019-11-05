@@ -10,10 +10,12 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.media.AudioManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.os.PowerManager;
+import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -42,6 +44,7 @@ import java.text.DecimalFormat;
 import java.util.Timer;
 import java.util.TimerTask;
 
+
 public class CallActivity extends Activity implements PortMessageReceiver.BroadcastListener, View.OnClickListener , SensorEventListener {
 
     public PortMessageReceiver receiver = null;
@@ -61,6 +64,7 @@ public class CallActivity extends Activity implements PortMessageReceiver.Broadc
     private PortSipSdk mEngine;
     private String isIncome;
     private String isVedio;
+    private String isJian;
     private Sensor mSensor;
     private PowerManager.WakeLock mWakeLock;
     private SensorManager sensorManager;
@@ -70,8 +74,10 @@ public class CallActivity extends Activity implements PortMessageReceiver.Broadc
     private PortSIPVideoRenderer localRenderScreen = null;
     private PortSIPVideoRenderer remoteRenderScreen = null;
     private PortSIPVideoRenderer localRenderScreen1 = null;
-    private PortSIPVideoRenderer sipVideoRenderer =null;
+    private Session currentLine;
     private PortSIPVideoRenderer.ScalingType scalingType = PortSIPVideoRenderer.ScalingType.SCALE_ASPECT_BALANCED;// SCALE_ASPECT_FIT or SCALE_ASPECT_FILL;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,7 +98,6 @@ public class CallActivity extends Activity implements PortMessageReceiver.Broadc
         localRenderScreen = (PortSIPVideoRenderer)findViewById(R.id.local_video_view);
         remoteRenderScreen = (PortSIPVideoRenderer)findViewById(R.id.remote_video_view);
         localRenderScreen1 = (PortSIPVideoRenderer)findViewById(R.id.local_video_view1);
-
         rl_jingying = (RelativeLayout) findViewById(R.id.rl_jingying);
         rl_guaduan = (RelativeLayout) findViewById(R.id.rl_guaduan);
         rl_mianti = (RelativeLayout) findViewById(R.id.rl_mianti);
@@ -116,12 +121,19 @@ public class CallActivity extends Activity implements PortMessageReceiver.Broadc
      */
     private void initData(){
         register();
+        currentLine =  CallManager.Instance().getCurrentSession();
         callName = getIntent().getStringExtra("callName");
         if(null != getIntent().getStringExtra("state")){
             isIncome = getIntent().getStringExtra("state");
         }
         if(null != getIntent().getStringExtra("isVedio")){
             isVedio = getIntent().getStringExtra("isVedio");
+        }
+
+        if(null != getIntent().getStringExtra("isJian")&& getIntent().getStringExtra("isJian").length()>0){
+            isJian = getIntent().getStringExtra("isJian");
+            rl_jingying.setVisibility(View.GONE);
+            llLocalView.setVisibility(View.GONE);
         }
 
         CallManager.Instance().setSpeakerOn(mEngine,false);
@@ -133,7 +145,6 @@ public class CallActivity extends Activity implements PortMessageReceiver.Broadc
         registerReceiver(receiver, filter);
         receiver.broadcastReceiver =this;
         tv_name.setText(callName);
-
         if(null != isIncome && isIncome.length()>0){
             if(null != isVedio && isVedio.length()>0){
                 speaker.setImageDrawable(getResources().getDrawable(R.mipmap.btn_camera));
@@ -151,17 +162,27 @@ public class CallActivity extends Activity implements PortMessageReceiver.Broadc
                 sensorManager.registerListener(this, mSensor, SensorManager.SENSOR_DELAY_NORMAL);
 
         }else{
-            tv_state.setText("正在呼叫，等待对方接听");
+            if (null != isJian && isJian.length()>0){
+                tv_state.setText("正在接入远程监听，请等待...");
+            }else{
+                tv_state.setText("正在呼叫，等待对方接听");
+            }
             tv_time.setVisibility(View.GONE);
-
             if( CallManager.Instance().getCurrentSession().HasVideo){
                 localRenderScreen.setVisibility(View.GONE);
                 remoteRenderScreen.setVisibility(View.GONE);
-                localRenderScreen1.setVisibility(View.VISIBLE);
-                mEngine.setLocalVideoWindow(localRenderScreen1);
-                mEngine.displayLocalVideo(true); // display Local video
-                speaker.setImageDrawable(getResources().getDrawable(R.mipmap.btn_camera));
-                tv_speak_steat.setText("切换摄像头");
+                //当时远程视频的时候不显示本机的视频
+                if(null != getIntent().getStringExtra("isJian")&& getIntent().getStringExtra("isJian").length()>0){
+                    localRenderScreen1.setVisibility(View.GONE);
+                    tv_state.setText("正在接入远程监听，请等待...");
+                }else{
+                    localRenderScreen1.setVisibility(View.VISIBLE);
+                    speaker.setImageDrawable(getResources().getDrawable(R.mipmap.btn_camera));
+                    tv_speak_steat.setText("切换摄像头");
+                    mEngine.setLocalVideoWindow(localRenderScreen1);
+                    mEngine.displayLocalVideo(true); // display Local video
+                }
+
             }else{
                 localRenderScreen.setVisibility(View.GONE);
                 remoteRenderScreen.setVisibility(View.GONE);
@@ -169,6 +190,7 @@ public class CallActivity extends Activity implements PortMessageReceiver.Broadc
             }
         }
     }
+
 
     @Override
     public void OnBroadcastReceiver(Intent intent) {
@@ -180,11 +202,20 @@ public class CallActivity extends Activity implements PortMessageReceiver.Broadc
         }
     }
 
-
     private void callStateChange(String status){
         switch (status){
             //对方点击了接通或者挂断按钮
             case "对方已应答":
+                //如果是静音监听
+                if(null != isJian && isJian.length()>0){
+                    mEngine.muteSession(currentLine.SessionID, false,
+                            true, false, true);
+                    currentLine.Mute = true;
+                }else{
+                    mEngine.muteSession(currentLine.SessionID, false,
+                            false, false, false);
+                    currentLine.Mute = false;
+                }
                 break;
             case "已接通":
                 //唤醒设备
@@ -232,19 +263,22 @@ public class CallActivity extends Activity implements PortMessageReceiver.Broadc
 
     @Override
     public void onClick(View v) {
-        Session currentLine = CallManager.Instance().getCurrentSession();
         switch (v.getId()){
             case R.id.rl_jingying:
-                if (currentLine.Mute) {
-                    mEngine.muteSession(currentLine.SessionID, false,
-                            false, false, false);
-                    currentLine.Mute = false;
-                    micro.setImageDrawable(getResources().getDrawable(R.mipmap.jingyin_disabled));
-                } else {
-                    mEngine.muteSession(currentLine.SessionID, true,
-                            true, true, true);
-                    currentLine.Mute = true;
-                    micro.setImageDrawable(getResources().getDrawable(R.mipmap.jingyin_nor));
+                if(TextUtils.isEmpty(isJian)){
+                    if (currentLine.Mute) {
+                        mEngine.muteSession(currentLine.SessionID, false,
+                                false, false, false);
+                        currentLine.Mute = false;
+                        micro.setImageDrawable(getResources().getDrawable(R.mipmap.jingyin_disabled));
+                    } else {
+                        mEngine.muteSession(currentLine.SessionID, true,
+                                true, true, true);
+                        currentLine.Mute = true;
+                        micro.setImageDrawable(getResources().getDrawable(R.mipmap.jingyin_nor));
+                    }
+                }else{
+                    Toast.makeText(CallActivity.this,"静音监听时，此功能将被禁用！",Toast.LENGTH_LONG).show();
                 }
                 break;
             case R.id.rl_guaduan:
@@ -260,17 +294,24 @@ public class CallActivity extends Activity implements PortMessageReceiver.Broadc
                 }).start();
                 break;
             case R.id.rl_mianti:
-                if(currentLine.HasVideo){
-                    SetCamera(mEngine,creameType);
-                    creameType = !creameType;
-                }else{
+                if(null != getIntent().getStringExtra("isJian")&& getIntent().getStringExtra("isJian").length()>0){
                     if(CallManager.Instance().setSpeakerOn(mEngine,!CallManager.Instance().isSpeakerOn())){
                         speaker.setImageDrawable(getResources().getDrawable(R.mipmap.mianti_selected));
                     }else {
                         speaker.setImageDrawable(getResources().getDrawable(R.mipmap.mianti_nor));
                     }
+                }else{
+                    if(currentLine.HasVideo){
+                        SetCamera(mEngine,creameType);
+                        creameType = !creameType;
+                    }else{
+                        if(CallManager.Instance().setSpeakerOn(mEngine,!CallManager.Instance().isSpeakerOn())){
+                            speaker.setImageDrawable(getResources().getDrawable(R.mipmap.mianti_selected));
+                        }else {
+                            speaker.setImageDrawable(getResources().getDrawable(R.mipmap.mianti_nor));
+                        }
+                    }
                 }
-
                 break;
 
         }

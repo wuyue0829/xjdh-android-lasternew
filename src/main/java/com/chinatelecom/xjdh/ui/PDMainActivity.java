@@ -61,7 +61,6 @@ public class PDMainActivity extends BaseActivity{
         rl_conversation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 startActivity(new Intent(getApplicationContext(), ChooseConversationActivity.class));
             }
         });
@@ -82,7 +81,7 @@ public class PDMainActivity extends BaseActivity{
         contentView.findViewById(R.id.tv_yuyin).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                LinphoneUtils.call(mContext,mEngine,"2000001",false,"远程支援");
+                LinphoneUtils.call(mContext,mEngine,"2000001",false,"远程支援",false);
                 bottomDialog.dismiss();
             }
         });
@@ -90,7 +89,7 @@ public class PDMainActivity extends BaseActivity{
         contentView.findViewById(R.id.tv_shipin).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                LinphoneUtils.call(mContext,mEngine,"2000001",true,"远程支援");
+                LinphoneUtils.call(mContext,mEngine,"2000001",true,"远程支援",false);
                 bottomDialog.dismiss();
             }
         });

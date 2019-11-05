@@ -101,16 +101,14 @@
                 android:layout_width="320dp"
                 android:layout_height="1dp"
                 android:background="#e5e5e5"
-                android:layout_gravity="center_horizontal"
-                android:visibility="gone">
+                android:layout_gravity="center_horizontal">
 
             </View>
 
             <RelativeLayout
                 android:id="@+id/rl_monitoring"
                 android:layout_width="match_parent"
-                android:layout_height="113dp"
-                android:visibility="gone">
+                android:layout_height="113dp">
 
                 <ImageView
                     android:id="@+id/icon3"

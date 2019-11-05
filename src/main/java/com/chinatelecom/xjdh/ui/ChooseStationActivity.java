@@ -89,7 +89,8 @@ public class ChooseStationActivity extends BaseActivity {
                         intent.putExtra("titleShow",titleShow + "->"+substationBeanList.get(position).getName());
                         startActivity(intent);
                     }else{
-                        Intent intent = new Intent(getApplicationContext(),ChooseVdioeRoomActivity.class);
+                        Intent intent = new Intent(getApplicationContext(),ChooseRoomActivity.class);
+                        intent.putExtra("isJian","isJian");
                         intent.putExtra("stationcode",substationBeanList.get(position).getId());
                         startActivity(intent);
                     }

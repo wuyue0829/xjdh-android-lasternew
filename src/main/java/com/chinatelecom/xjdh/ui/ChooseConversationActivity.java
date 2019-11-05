@@ -141,7 +141,7 @@ public class ChooseConversationActivity extends BaseActivity {
         contentView.findViewById(R.id.tv_yuyin).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                LinphoneUtils.call(mContext,mEngine,mSortList.get(position).getPhoneNum(),false,mSortList.get(position).getName());
+                LinphoneUtils.call(mContext,mEngine,mSortList.get(position).getPhoneNum(),false,mSortList.get(position).getName(),false);
                 bottomDialog.dismiss();
             }
         });
@@ -149,7 +149,7 @@ public class ChooseConversationActivity extends BaseActivity {
         contentView.findViewById(R.id.tv_shipin).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                LinphoneUtils.call(mContext,mEngine,mSortList.get(position).getPhoneNum(),true,mSortList.get(position).getName());
+                LinphoneUtils.call(mContext,mEngine,mSortList.get(position).getPhoneNum(),true,mSortList.get(position).getName(),false);
                 bottomDialog.dismiss();
             }
         });

@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import com.chinatelecom.xjdh.R;
 import com.chinatelecom.xjdh.app.AppContext;
 import com.chinatelecom.xjdh.app.AppManager;
+import com.chinatelecom.xjdh.linphone.LinphoneUtils;
 import com.chinatelecom.xjdh.utils.ToolBarHelper;
 import com.portsip.PortSipSdk;
 
@@ -63,6 +64,7 @@ public abstract class BaseActivity extends AppCompatActivity {
 
 	@Override
 	protected void onResume() {
+		LinphoneUtils.loginSip(mContext);
 		if (mListeners.size() > 0)
 			for (BackPressHandler handler : mListeners) {
 				handler.activityOnResume();

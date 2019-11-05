@@ -59,7 +59,7 @@ public class LinphoneUtils {
      * @param callTo
      * @param isVideo
      */
-    public static void call(Context context,PortSipSdk mEngine,String callTo,boolean isVideo,String callName){
+    public static void call(Context context,PortSipSdk mEngine,String callTo,boolean isVideo,String callName,boolean isJian){
         //default send video
         long sessionId = mEngine.call(callTo, true, isVideo);
         if (sessionId <= 0) {
@@ -84,6 +84,12 @@ public class LinphoneUtils {
         if(isVideo){
             intent.putExtra("isVedio","isVedio");
         }
+        if(isJian){
+            intent.putExtra("isJian","isJian");
+        }else{
+            intent.putExtra("isJian","");
+        }
+
         context.startActivity(intent);
     }
 

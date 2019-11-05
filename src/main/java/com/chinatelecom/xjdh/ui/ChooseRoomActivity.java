@@ -1,8 +1,10 @@
 package com.chinatelecom.xjdh.ui;
 
+import android.app.Dialog;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -31,6 +33,7 @@ public class ChooseRoomActivity extends BaseActivity {
     private RelativeLayout rl_head_return;
     private List<RoomBean.Data> roomBeanList;
     private String stationcode;
+    private String isJian;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +42,7 @@ public class ChooseRoomActivity extends BaseActivity {
         setTitle("选择机房");
         rv = (RecyclerView) findViewById(R.id.rv);
         stationcode = getIntent().getExtras().getString("stationcode");
+        isJian = getIntent().getExtras().getString("isJian");
         rl_head_return = (RelativeLayout) findViewById(R.id.rl_head_return);
         rv.setLayoutManager(new LinearLayoutManager(getBaseContext()));
         rl_head_return.setOnClickListener(new View.OnClickListener() {
@@ -74,7 +78,14 @@ public class ChooseRoomActivity extends BaseActivity {
             holder.rl_item.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    LinphoneUtils.call(mContext,mEngine,roomBeanList.get(position).getPhone_number(),false,roomBeanList.get(position).getName());
+                    if(null != isJian && isJian.length()>0){
+                        //静音监听时
+                        show1(roomBeanList.get(position).getPhone_number(),list.get(position));
+                    }else{
+                        LinphoneUtils.call(mContext,mEngine,roomBeanList.get(position).getPhone_number(),false,roomBeanList.get(position).getName(),false);
+
+                    }
+
                 }
             });
         }
@@ -82,6 +93,34 @@ public class ChooseRoomActivity extends BaseActivity {
         public int getItemCount() {
             return list.size();
         }
+    }
+
+    private void show1(final String phoneNumber, final String name) {
+        final Dialog bottomDialog = new Dialog(this, R.style.BottomDialog);
+        View contentView = LayoutInflater.from(this).inflate(R.layout.dialog_content_normal1, null);
+        bottomDialog.setContentView(contentView);
+        contentView.findViewById(R.id.tv_yuyin).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                LinphoneUtils.call(mContext,mEngine,phoneNumber,false,name,true);
+                bottomDialog.dismiss();
+            }
+        });
+
+        contentView.findViewById(R.id.tv_shipin).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                LinphoneUtils.call(mContext,mEngine,phoneNumber,true,name,true);
+                bottomDialog.dismiss();
+            }
+        });
+        ViewGroup.LayoutParams layoutParams = contentView.getLayoutParams();
+        layoutParams.width = getResources().getDisplayMetrics().widthPixels;
+        contentView.setLayoutParams(layoutParams);
+        bottomDialog.getWindow().setGravity(Gravity.BOTTOM);
+        bottomDialog.setCanceledOnTouchOutside(true);
+        bottomDialog.getWindow().setWindowAnimations(R.style.BottomDialog_Animation);
+        bottomDialog.show();
     }
 
     public class MyHolder extends RecyclerView.ViewHolder {

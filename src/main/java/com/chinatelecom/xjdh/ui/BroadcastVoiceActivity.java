@@ -15,7 +15,6 @@ import com.chinatelecom.xjdh.app.AppContext;
 import com.chinatelecom.xjdh.linphone.CallManager;
 import com.chinatelecom.xjdh.linphone.Session;
 import com.chinatelecom.xjdh.view.RingsView;
-import com.hss01248.dialog.StyledDialog;
 
 
 public class BroadcastVoiceActivity extends BaseActivity {
@@ -45,6 +44,9 @@ public class BroadcastVoiceActivity extends BaseActivity {
         currentLine = CallManager.Instance().findSessionBySessionID(mSessionid);
         currentLine.state = Session.CALL_STATE_FLAG.CONNECTED;
         mEngine.answerCall(mSessionid,false);
+        mEngine.muteSession(currentLine.SessionID, true,
+                true, true, true);
+        currentLine.Mute = true;
         if(application.mConference){
             application.mEngine.joinToConference(currentLine.SessionID);
         }
@@ -55,15 +57,16 @@ public class BroadcastVoiceActivity extends BaseActivity {
                 switch (motionEvent.getAction()) {
                     case MotionEvent.ACTION_UP://松开事件发生后执行代码的区域
                         rv_rings_circle.stop();
-                        mEngine.muteSession(currentLine.SessionID, true,
-                                true, true, true);
+                        mEngine.muteSession(currentLine.SessionID, false,
+                                true, false, true);
                         currentLine.Mute = true;
                         break;
                     case MotionEvent.ACTION_DOWN://按住事件发生后执行代码的区域
-                        rv_rings_circle.start();
                         mEngine.muteSession(currentLine.SessionID, false,
                                 false, false, false);
                         currentLine.Mute = false;
+                        rv_rings_circle.start();
+
                         break;
                     default:
                         break;
